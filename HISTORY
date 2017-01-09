@@ -438,7 +438,7 @@ Video Disk Recorder Revision History
   recordings.
 - Added Dutch language texts (thanks to Arnold Niessen).
 - The new command line option -t can be used to set the controlling terminal
-  (thanks to Jürgen Sauer). This is especially useful when starting VDR through
+  (thanks to Jï¿½rgen Sauer). This is especially useful when starting VDR through
   an entry in /etc/inittab (see INSTALL).
 - Since the CAM module only works if it is installed in the "highest" DVB card,
   recordings now search for a free DVB card from lowest to highest index (as
@@ -545,7 +545,7 @@ Video Disk Recorder Revision History
   enough to allow rock solid channel switching??).
 - No longer sending a Diseqc command if the Diseqc value for a given channel
   is '0'. Previously this caused problems with some multi-switches (thanks to
-  Markus Lang and Ulrich Röder).
+  Markus Lang and Ulrich Rï¿½der).
 - When switching channels by entering the channel number via the numeric keys
   on the remote control, the channel number displayed is now followed by the
   '-' character to indicate that additional digits can be entered.
@@ -574,14 +574,14 @@ Video Disk Recorder Revision History
 
 2001-07-29: Version 0.85
 
-- Added Norwegian language texts (thanks to Jørgen Tvedt).
+- Added Norwegian language texts (thanks to Jï¿½rgen Tvedt).
 - Increased the usleep value in cDvbOsd::Cmd() to 5000 in order to work on
   systems with the KURT/utime-patch (thanks to Guido Fiala).
 - Changed the check whether the driver is loaded in runvdr to check for the
   'dvb' module (the last one loaded).
 - Fixed repeat function with LIRC (thanks to Stefan Huelswitt).
 - Increased the upper limit for the symbol rate to 30000 (thanks to Ulrich
-  Röder).
+  Rï¿½der).
 - Made the position of the channel display configurable (thanks to Stefan
   Huelswitt).
 - Made the width and height of the OSD configurable (thanks to Stefan Huelswitt).
@@ -597,7 +597,7 @@ Video Disk Recorder Revision History
 - When setting an editing mark while the progress display is not active, the
   display will now be turned on for a short while to indicate the successful
   setting of the mark.
-- Updated 'channels.conf' for Premiere World (thanks to Mel Schächner).
+- Updated 'channels.conf' for Premiere World (thanks to Mel Schï¿½chner).
   Check your timers if you use this channels.conf file, since the sequence of
   several PW channels has been changed.
 - Changed the color of "Info" messages to "black on green" and that of the
@@ -798,8 +798,8 @@ Video Disk Recorder Revision History
 - Fixed handling repeat function when using LIRC (thanks to Matthias Weingart).
 - The shutdown program (defined with the '-s' option) now also gets the channel
   number and recording title of the timer (see INSTALL).
-- New channel data for 'Premiere One', 'Premiere X-Action', 'Fox Kids Türkce'
-  and 'N24' (thanks to Andreas Share, Ulrich Röder, Uwe Scheffler and Simon
+- New channel data for 'Premiere One', 'Premiere X-Action', 'Fox Kids Tï¿½rkce'
+  and 'N24' (thanks to Andreas Share, Ulrich Rï¿½der, Uwe Scheffler and Simon
   Bauschulte). Note that if you are using the default 'channels.conf' or
   'channels.conf.cable' files you may need to check any exiting timers to see
   whether they still use the correct channel number.
@@ -827,7 +827,7 @@ Video Disk Recorder Revision History
 - The menu timeout now also works when pressing the "Back" button during replay
   to enter the "Recordings" menu.
 - Updated 'channels.conf' for the "Bundesliga" channels of Premiere World
-  (thanks to Mel Schächner).
+  (thanks to Mel Schï¿½chner).
 - Fixed reading timers.conf and channels.conf that contain blanks after numeric
   values.
 - Fixed handling trick modes near the beginning and end of a recording.
@@ -843,7 +843,7 @@ Video Disk Recorder Revision History
   Thomas Heiligenmann).
 - Fixed a crash when pressing the '2' button while replaying a DVD.
 - Updated 'channels.conf' for the "Bundesliga" channels of Premiere World
-  (thanks to Mel Schächner).
+  (thanks to Mel Schï¿½chner).
 - Changed the tuning code to use FrontendInfo to detect the type of DVB card.
 - Removed the recursion stuff from cThread (cMutex already does this).
 - Fixed handling the repeat function in the channel display.
@@ -984,7 +984,7 @@ Video Disk Recorder Revision History
   recording in case of a repeating timer (i.e. taking the one that is in the
   middle between start and end time).
 - Added a typedef for 'in_addr_t' to make it work with glibc < 2.2 (thanks to
-  Jürgen Schmidt).
+  Jï¿½rgen Schmidt).
 - When the last entry in a "Recordings" menu page is deleted, that page is now
   automatically closed (suggested by Uwe Freese).
 - Changed the default name for instant recordings to "TITLE EPISODE" (avoiding
@@ -1079,9 +1079,9 @@ Video Disk Recorder Revision History
 - The "Blue" button in the "Main" menu now works as "Stop" button if a recording
   is currently being replayed.
 - New command line option '-m' to mute audio of the primary DVB device at
-  startup (suggested by Mirko Günther).
+  startup (suggested by Mirko Gï¿½nther).
 - The new SVDRP command VOLU can be used to control the audio volume (suggested
-  by Mirko Günther).
+  by Mirko Gï¿½nther).
 - Fixed resetting 'mute' state when setting the volume to a non-zero value.
 - Added log messages when deleting recordings in case the disk runs full while
   recording.
@@ -1163,7 +1163,7 @@ Video Disk Recorder Revision History
 - Fixed skipping the next hit of a repeating timer (thanks to Rainer Zocholl
   for reporting this one).
 - Fixed a bug when a timer records over midnight of a day that had a change in
-  Daylight Saving Time (thanks to Mirko Dölle for reporting this one).
+  Daylight Saving Time (thanks to Mirko Dï¿½lle for reporting this one).
 - Added Polish language texts (thanks to Michael Rakowski).
 - Fixed a bug in parsing group separators in channels.conf (thanks to Henning
   Holtschneider for reporting this one).
@@ -1215,7 +1215,7 @@ Video Disk Recorder Revision History
 - Fixed a possible endless loop in shifting recordings between DVB cards (thanks
   to Stefan Huelswitt for reporting this one).
 - Updated the Premiere World Formula 1 channels in 'channels.conf' (thanks to Mel
-  Schächner).
+  Schï¿½chner).
 - No longer setting PIDs 0x1FFF, which apparently fixes problems with CAMs and
   AC3 sound only working the first time (thanks to Stefan Huelswitt).
 - Now encoding '.' at the end of a directory name in case of VFAT=1, since Windows
@@ -1233,7 +1233,7 @@ Video Disk Recorder Revision History
 - Fixed a crash on systems with disks that have a block size larger than 1MB
   (thanks to Ulrich Petri for helping to debug this one).
 - Updated 'channels.conf' for the new PW settings (thanks to Andreas Share,
-  Carsten Koch, Gerald Raaf and Mel Schächner). Note that all channels with numbers
+  Carsten Koch, Gerald Raaf and Mel Schï¿½chner). Note that all channels with numbers
   over 50 may have moved, so you should carefully check any timers you have set!
 - Updated 'channels.conf.cable' for the new PW settings (thanks to Oliver Lorei
   Stephan Schreiber and Uwe Scheffler). Note that all channels may have moved, so
@@ -1243,7 +1243,7 @@ Video Disk Recorder Revision History
   with the most recent version of VDR. I will then simply replace the entire file
   'channels.conf.cable' whenever a new version is sent to me.
 - Fixed skipping forward in time shift mode near the end of the recording (thanks
-  to Andreas Böttger for reporting this one).
+  to Andreas Bï¿½ttger for reporting this one).
 
 2002-05-09: Version 1.1.0
 
@@ -1396,7 +1396,7 @@ Video Disk Recorder Revision History
 2002-08-16: Version 1.1.7
 
 - Adapted VDR to the NEWSTRUCT driver. To use the new driver, compile VDR with
-  'make NEWSTRUCT=1' (thanks to Holger Wächtler for some valuable advice).
+  'make NEWSTRUCT=1' (thanks to Holger Wï¿½chtler for some valuable advice).
   By default it currently still uses the old driver.
 - Added some missing #includes (thanks to Martin Hammerschmid).
 - Changed the log error message "can't record MPEG1!" to "error in data stream!",
@@ -1419,7 +1419,7 @@ Video Disk Recorder Revision History
 2002-08-25: Version 1.1.8
 
 - Fixed replaying the last few seconds of a recording.
-- Added some missing #includes to files in libdtv for gcc 3.2 (thanks to Jürgen
+- Added some missing #includes to files in libdtv for gcc 3.2 (thanks to Jï¿½rgen
   Zimmermann).
 - Added cDevice::NewOsd() to allow a derived cDevice class to implement its own
   OSD capabilities (thanks to Andreas Schultz).
@@ -1616,7 +1616,7 @@ Video Disk Recorder Revision History
 - Fixed some faulty default parameter initializations (thanks to Robert Schiele).
 - Added further satellites to 'sources.conf' (thanks to Reinhard Walter Buchner
   and Oliver Endriss).
-- Updated Finnish OSD texts (thanks to Jaakko Hyvätti).
+- Updated Finnish OSD texts (thanks to Jaakko Hyvï¿½tti).
 - Fixed a small glitch when switching channels (thanks to Dennis Noordsij for
   reporting this one).
 - Fixed handling multiple 'CaCaps' entries in 'setup.conf'.
@@ -1800,14 +1800,14 @@ Video Disk Recorder Revision History
   When reading an old 'channels.conf' these new fields will be automatically
   initialized to 0 and once the file is written back to disk they will be appended
   to the channel definitions.
-  Thanks to Régis Bossut for pointing out that with some providers the channels can
+  Thanks to Rï¿½gis Bossut for pointing out that with some providers the channels can
   only be distinguished through the RID.
 - The "unique channel ID" now contains an optional 5th part (the RID). See man vdr(5).
 - Updated 'channels.conf.cable' and made some channels unique using the new RID
   (thanks to Andreas Kool for pointing out the problems).
 - Made some channels unique in 'channels.conf.terr' using the new RID.
 - Extended the '-l' option to allow logging to LOG_LOCALn (n=0..7) by writing, for
-  instance, '-l 3.7' (suggested by Jürgen Schmidt).
+  instance, '-l 3.7' (suggested by Jï¿½rgen Schmidt).
 - Now deleting stale lock files if they have a time stamp that is outside the window
   'now +/- LOCKFILESTALETIME'. This improves things in cases where the system time
   makes far jumps, so that a lock file might end up with a time stamp that lies
@@ -1865,7 +1865,7 @@ Video Disk Recorder Revision History
 
 2002-12-15: Version 1.1.20
 
-- Now checking if there is a connection to the keyboard (thanks to Jaakko Hyvätti)
+- Now checking if there is a connection to the keyboard (thanks to Jaakko Hyvï¿½tti)
   and only creating the KBD remote control if VDR is running in the foreground.
 - Fixed taking an active SVDRP connection into account when doing shutdown (thanks
   to Gregoire Favre for reporting this one).
@@ -1883,7 +1883,7 @@ Video Disk Recorder Revision History
 
 - Fixed recording overlapping timers on the same channel in case
   DO_REC_AND_PLAY_ON_PRIMARY_DEVICE and/or DO_MULTIPLE_RECORDINGS is not defined
-  (thanks to Jaakko Hyvätti).
+  (thanks to Jaakko Hyvï¿½tti).
 - No longer stopping/restarting the DMX when switching audio channels (thanks to
   Sven Goethel).
 - Fixed high CPU load in 'Transfer Mode' (thanks to Oliver Endriss).
@@ -2025,7 +2025,7 @@ Video Disk Recorder Revision History
 - If no device with an MPEG decoder can be found at startup, the first device
   is now used as primary device (just to have some device).
 - Adjusted some Premiere channels in 'channels.conf' (thanks to Thomas Koch).
-- Updated 'channels.conf.cable' (thanks to Stefan Hußfeldt).
+- Updated 'channels.conf.cable' (thanks to Stefan Huï¿½feldt).
 - The 'epg.data' file is now read after all plugins have been started (thanks
   to Sascha Volkenandt).
 - The LIRC remote control no longer tries to learn keys if it can't connect to
@@ -2087,7 +2087,7 @@ Video Disk Recorder Revision History
 
 2003-05-04: Version 1.1.30
 
-- Fixed minimum lifespan of deleted recordings (thanks to Jaakko Hyvätti).
+- Fixed minimum lifespan of deleted recordings (thanks to Jaakko Hyvï¿½tti).
 - Updated French OSD texts (thanks to Olivier Jacques).
 - Fixed paging through lists with repeated Left/Right keys.
 - Fixed setting the PCR-PID in case it is equal to one of the other PIDs (thanks
@@ -2165,11 +2165,11 @@ Video Disk Recorder Revision History
   this one).
 - Fixed setting the locking pid after a timed wait (thanks to Andreas Schultz).
 - Avoiding spurious section filter settings after a channel switch.
-- Updated 'channels.conf.cable' (thanks to Stefan Hußfeldt).
+- Updated 'channels.conf.cable' (thanks to Stefan Huï¿½feldt).
 - Fixed reading 'epg.data' for channels with non-zero RID (thanks to Oliver
   Endriss for reporting this one).
 - Fixed EPG bugfix statistics to avoid log entries for undefined channels (thanks
-  to Lars Bläser for reporting this one).
+  to Lars Blï¿½ser for reporting this one).
 - No longer waiting inside cIndexFile::CatchUp() to avoid shortly blocking replay
   at the end of a recording.
 
@@ -2219,7 +2219,7 @@ Video Disk Recorder Revision History
 - Completed the Italian OSD texts (thanks to Antonio Ospite).
 - Fixed breaking off replay in case the user hits "Play" or "Pause" too soon after
   going into "Pause live video" mode (thanks to Karim Afifi for reporting this one).
-- Some corrections to the Catalan OSD texts (thanks to Jordi Vilà).
+- Some corrections to the Catalan OSD texts (thanks to Jordi Vilï¿½).
 - Single event timers are now deleted if the recording they are doing is
   deleted before the timer ends.
 - Fixed an uninitialized variable in cDisplayChannel (thanks to Stefan Huelswitt).
@@ -2232,7 +2232,7 @@ Video Disk Recorder Revision History
 - Completed Polish language texts (thanks to Michael Rakowski).
 - Added a note about NPTL ("Native Posix Thread Library") to the INSTALL file
   (thanks to Jon Burgess for pointing this out).
-- Some corrections to the Finnish OSD texts (thanks to Jaakko Hyvätti).
+- Some corrections to the Finnish OSD texts (thanks to Jaakko Hyvï¿½tti).
 - Officially released as version 1.2.0.
 
 2003-06-09: Version 1.2.1
@@ -2259,7 +2259,7 @@ Video Disk Recorder Revision History
 - Fixed a bug in channel switching after Left/Right has been pressed (thanks to
   Michael Walle for reporting this one).
 - Improved channel switching in case of numerical input by switching as soon as
-  the channel is unique (suggested by Jaakko Hyvätti).
+  the channel is unique (suggested by Jaakko Hyvï¿½tti).
 - Fixed creating a new channel in the "Channels" menu in case the 'channels.conf'
   contains ':@nnn' lines with no text (thanks to Guy Roussin for reporting this
   one).
@@ -2274,11 +2274,11 @@ Video Disk Recorder Revision History
 - Fixed an occasional "Broken pipe" error in SVDRP connections (thanks to Gerhard
   Steiner for reporting this one).
 - Fixed checking CA capabilities with the dvb-kernel driver (thanks to Kenneth
-  Aafløy).
+  Aaflï¿½y).
 - Fixed selecting the device, because sometimes an FTA recording terminated a
   CA recording (thanks to Emil Naepflein).
 - Fixed a possible crash in case a VFAT file system is used without compiling VDR
-  with VFAT=1 (thanks to Ernst Fürst for reporting this one).
+  with VFAT=1 (thanks to Ernst Fï¿½rst for reporting this one).
 - Now the program uses the values of VIDEODIR and PLUGINDIR defined in Makefile
   or Make.config as defaults (thanks to Steffen Barszus).
 - Added the usual menu timeout to the CAM menus.
@@ -2288,7 +2288,7 @@ Video Disk Recorder Revision History
 - Fixed the TS to PES repacker so that it works with MPEG1 streams (thanks to
   Andreas Kool).
 - Fixed keeping track of the current channel number when moving channels in
-  the "Channels" menu (thanks to Mirko Günther for reporting this one).
+  the "Channels" menu (thanks to Mirko Gï¿½nther for reporting this one).
 - Made the plugin library directory configurable via Make.config (thanks to
   Ludwig Nussel).
 - Fixed scaling SPU bitmaps in Letterbox mode when playing NTSC material.
@@ -2307,7 +2307,7 @@ Video Disk Recorder Revision History
 - Fixed freezing replay if a timer starts while in Transfer Mode from the device
   used by the timer, and the timer needs a different transponder (thanks to
   Richard Robson for reporting this one).
-- Fixed toggling channels with the '0' key (thanks to Mirko Günther for reporting
+- Fixed toggling channels with the '0' key (thanks to Mirko Gï¿½nther for reporting
   this one).
 - Made the "Zap timeout" (the time until a channel counts as "previous" for
   switching with '0') a setup variable, available in "Setup/Miscellaneous"
@@ -2401,7 +2401,7 @@ Video Disk Recorder Revision History
 
 2003-09-17: Version 1.2.5
 
-- Updated 'channels.conf.cable' (thanks to Stefan Hußfeldt).
+- Updated 'channels.conf.cable' (thanks to Stefan Huï¿½feldt).
 
 2003-10-17: Version 1.2.6pre1
 
@@ -2692,7 +2692,7 @@ Video Disk Recorder Revision History
   'running status' flag correctly). This also applies to programmes that have
   a start time that is in the future, but are already running.
 - Implemented an "EPG linger time", which can be set to have older EPG information
-  still displayed in the "Schedule" menu (thanks to Jaakko Hyvätti).
+  still displayed in the "Schedule" menu (thanks to Jaakko Hyvï¿½tti).
 - Added PDCDescriptor handling to 'libsi'.
 - Implemented handling the VPS timestamps (aka "Programme Identification Label")
   for full VPS support for timers (provided the tv stations actually broadcast
@@ -2701,7 +2701,7 @@ Video Disk Recorder Revision History
 - Extended the SVDRP command LSTE to allow limiting the listed data to a given
   channel, the present or following events, or events at a given time (thanks to
   Thomas Heiligenmann).
-- Fixed a typo in libsi/si.h (thanks to Stéphane Esté-Gracias).
+- Fixed a typo in libsi/si.h (thanks to Stï¿½phane Estï¿½-Gracias).
 - Timers can now be set to use the VPS information to control recording a programme.
   The new setup options "Recording/Use VPS" and "Recording/VPS margin", as well as
   the "VPS" option in the individual timers, can be used to control this feature
@@ -2717,7 +2717,7 @@ Video Disk Recorder Revision History
 2004-03-14: Version 1.3.6
 
 - Completed the Finnish OSD texts (thanks to Rolf Ahrenberg).
-- Fixed some descriptor handling in 'libsi' (thanks to Stéphane Esté-Gracias).
+- Fixed some descriptor handling in 'libsi' (thanks to Stï¿½phane Estï¿½-Gracias).
 - Fixed handling the current menu item (thanks to Marc Hoppe).
 - Fixed assigning events to timers (they no longer get "stuck").
 - Added log entries whenever the running status of an event changes (currently
@@ -2725,19 +2725,19 @@ Video Disk Recorder Revision History
 - Fixed handling timers in VPS margin if the EPG scan is turned on (the EPG scan
   switched the device away from the channel, so it wouldn't see the change of
   the running status).
-- Fixed handling "itemized" texts in EPG data (thanks to Stéphane Esté-Gracias
+- Fixed handling "itemized" texts in EPG data (thanks to Stï¿½phane Estï¿½-Gracias
   for pointing out this problem, and Marcel Wiesweg for improving 'libsi').
 - Fixed handling VPS times at year boundaries.
 - Avoiding too many consecutive "ring buffer overflow" messages (which only
   slowed down performance even more).
 - Taking the Sid into account when detecting version changes in processing the
-  PMT (thanks to Stéphane Esté-Gracias for pointing out this problem).
+  PMT (thanks to Stï¿½phane Estï¿½-Gracias for pointing out this problem).
 - Completed the Russian OSD texts (thanks to Vyacheslav Dikonov).
 - Any newline characters in the 'description' of EPG events are now preserved
   to allow texts to be displayed the way the tv stations have formatted them.
   This was also necessary to better display itemized texts.
 - Fixed detecting the running status in case an empty EPG event is broadcast (thanks
-  to Michael Pennewiß for pointing this out).
+  to Michael Pennewiï¿½ for pointing this out).
 - Improved performance when paging through very long menu lists.
 - Removed cSchedule::GetEventNumber() and cSchedule::NumEvents(). There is now
   cSchedule::Events() that returns the list of events directly.
@@ -2753,7 +2753,7 @@ Video Disk Recorder Revision History
 - Fixed handling text lengths for itemized EPG texts (thanks to Marcel Wiesweg).
 - Fixed the help for LSTE and LSTR (was broken in 1.3.6).
 - Improved iso8859-7 fonts (thanks to Dimitrios Dimitrakos).
-- Added some 3-letter language codes (thanks to Marcus Mönnig).
+- Added some 3-letter language codes (thanks to Marcus Mï¿½nnig).
 - Added language code handling to the subtitling descriptor in 'libsi' (thanks to
   Pekka Virtanen).
 - Moved several menu item classes from menu.c to menuitems.[hc] to make them
@@ -2863,7 +2863,7 @@ Video Disk Recorder Revision History
 - Fixed handling descriptor loops in 'libsi', which had sometimes caused invalid
   CA ids to be added to the channel definitions (thanks to Wayne Keer for reporting
   this one, and Marcel Wiesweg for fixing it).
-- Fixed handling colors in cDvbSpuPalette::yuv2rgb() (thanks to Marco Schlüßler).
+- Fixed handling colors in cDvbSpuPalette::yuv2rgb() (thanks to Marco Schlï¿½ï¿½ler).
 - Made some functions of cFont virtual to allow implementing dummy fonts for the
   'curses' skin.
 - The new plugin 'skincurses' re-implements the functionality that was previously
@@ -2882,10 +2882,10 @@ Video Disk Recorder Revision History
 - The cBitmap::SetXpm() function now ignores unused "none" color entries, which
   some broken graphics tools write into XPM files (suggested by Sascha Volkenandt).
 - No longer setting lnb voltage if the frontend is not DVB-S (thanks to Marco
-  Schlüßler).
+  Schlï¿½ï¿½ler).
 - Fixed displaying the current channel when switching via the SVDRP command CHAN
-  (thanks to Jürgen Schmitz for reporting this one).
-- Fixed missing audio after replaying a DVD (thanks to Marco Schlüßler).
+  (thanks to Jï¿½rgen Schmitz for reporting this one).
+- Fixed missing audio after replaying a DVD (thanks to Marco Schlï¿½ï¿½ler).
 - Added a note about the default assignment of the color keys to MANUAL.
 - Added a note about NPTL ("Native Posix Thread Library") to the INSTALL file
   (apparently the "fix" in version 1.3.0 didn't really fix this).
@@ -2900,12 +2900,12 @@ Video Disk Recorder Revision History
   'export LD_ASSUME_KERNEL=2.4.1' before starting VDR.
 - Revisited the "Fixed missing audio after replaying a DVD" change because it
   introduced a sound disturbance when switching between channels on the same
-  transponder (thanks to Marco Schlüßler).
+  transponder (thanks to Marco Schlï¿½ï¿½ler).
 - In order to avoid problems on UTF-8 systems, VDR now checks for the presence
   of UTF-8 at program start, and if it is, exits and tells the user to turn off
   UTF-8 before starting VDR (thanks to Ludwig Nussel for pointing out a problem
   with systems that are set to use UTF-8). There are also problems in case the
-  video partition is mounted with "iocharset=utf8" (thanks to Jörg Knitter for
+  video partition is mounted with "iocharset=utf8" (thanks to Jï¿½rg Knitter for
   reporting this one).
   Please also read the "IMPORTANT NOTES" section in the INSTALL file!
 - Some changes to the SPU decoder interface (thanks to Sven Goethel).
@@ -2917,7 +2917,7 @@ Video Disk Recorder Revision History
   a radio channel or an unencrypted channel (thanks to Martin Dauskardt for reporting
   this one).
 - No longer using the external 'find' command to scan the video directory for
-  recordings (based on a suggestion by Mirko Dölle).
+  recordings (based on a suggestion by Mirko Dï¿½lle).
 - The list of recordings is now kept statically in memory to avoid long delays
   when opening the "Recordings" menu. As a side effect, external modifications to
   the video directory are no longer immediately reflected in the "Recordings" menu.
@@ -2948,14 +2948,14 @@ Video Disk Recorder Revision History
 - Fixed checking the last area for misalignment in cOsd::CanHandleAreas() (thanks
   to Reinhard Nissl for reporting this one).
 - No longer adding section filters to the list of filters if they can't be opened
-  (thanks to Marco Schlüßler for pointing this out).
+  (thanks to Marco Schlï¿½ï¿½ler for pointing this out).
 - Fixed handling error case '-1' when polling section filters (thanks to Marco
-  Schlüßler).
+  Schlï¿½ï¿½ler).
 - Fixed handling error case '-1' when polling CAM connections.
 - Making sure the OSD reports oeWrongAlignment errors before any oeAreasOverlap
   error (suggested by Reinhard Nissl).
 - Avoiding flashing effects in the OSD of full featured DVB cards by explicitly
-  clearing the OSD windows before opening them (suggested by Marco Schlüßler).
+  clearing the OSD windows before opening them (suggested by Marco Schlï¿½ï¿½ler).
 - Experimental support for NVOD channels. Currently these channels are detected
   and linked to their "base" channels using the same mechanisms as for the
   "linked services" (let's see if this is useful). Thanks to Mike parker for
@@ -2973,7 +2973,7 @@ Video Disk Recorder Revision History
 - Making sure section filters are only set if the device actually has a lock
   (thanks to Andreas Share for pointing this out).
 - Fixed a possible NULL pointer assignment in cMenuText::SetText() (thanks to
-  Marco Schlüssler).
+  Marco Schlï¿½ssler).
 - Fixed a crash in case the last line in channels.conf is a group separator and
   that group is selected in the channel display (thanks to Dick Streefland).
 - Added cRingBufferLinear::Read() to read directly from a file handle into the
@@ -3002,10 +3002,10 @@ Video Disk Recorder Revision History
   uses it in cRemote).
 - The cRingBuffer now does EnableGet()/EnablePut() only if the buffer is more than
   one third full or empty, respectively. This dramatically improves recording
-  performance and reduces system load (thanks to Marco Schlüßler for doing some
+  performance and reduces system load (thanks to Marco Schlï¿½ï¿½ler for doing some
   testing regarding buffer performance and giving me some hints that finally led
   to finding out that this was the basic problem causing buffer overflows).
-- Improved Transfer Mode (thanks to Marco Schlüßler for suggestions and testing).
+- Improved Transfer Mode (thanks to Marco Schlï¿½ï¿½ler for suggestions and testing).
 - Fixed a possible crash with inconsistent SI data (thanks to Marcel Wiesweg).
 - Fixed showing the replay mode if the OSD is currently in use (thanks to Kimmo
   Tykkala for pointing out this problem).
@@ -3019,7 +3019,7 @@ Video Disk Recorder Revision History
   to have them set in case a patch references them (thanks to Wayne Keer for pointing
   this out).
 - Completed the Russian OSD texts (thanks to Vyacheslav Dikonov).
-- Avoiding unnecessary section filter start/stops (thanks to Marco Schlüßler).
+- Avoiding unnecessary section filter start/stops (thanks to Marco Schlï¿½ï¿½ler).
 - Made the "Channel not available!" message and mtInfo instead of mtError (suggested
   by Wayne Keer).
 - Made volume control more linear (thanks to Emil Naepflein and Udo Richter).
@@ -3027,7 +3027,7 @@ Video Disk Recorder Revision History
 - Added missing Czech characters to fontosd-iso8859-2.c (thanks to Milos Kapoun).
 - Fixed a crash in the time search mechanism (reported by Reinhard Nissl).
 - If one PID can't be added, the whole cDevice::AttachReceiver() will now fail
-  and all PIDs added so far will be deleted (thanks to Marco Schlüßler for
+  and all PIDs added so far will be deleted (thanks to Marco Schlï¿½ï¿½ler for
   pointing out this one).
 - Now only saving channels.conf after a modification made by the user (avoids
   lots of disk access due to automatic channel updates). Automatic channel
@@ -3047,7 +3047,7 @@ Video Disk Recorder Revision History
 - Added a sample setup for 'DisiCon-4 Single Cable Network' to 'diseqc.conf'
   (thanks to Oliver Endriss).
 - Fixed attaching a cPlayer to a cDevice, so that 'Operation not permitted'
-  errors don't occur any more (thanks to Marco Schlüßler).
+  errors don't occur any more (thanks to Marco Schlï¿½ï¿½ler).
 - Fixed a case where the resultBuffer in cRemux ran full before getting a sync.
 - Removed the usleep() call from cDvbPlayer::Action() to make VDR run on NPTL
   systems (thanks to Alfred Zastrow). The NPTL check at startup has also been
@@ -3058,7 +3058,7 @@ Video Disk Recorder Revision History
 - Now actually using the iso8859-15 fonts (thanks to Lucian Muresan).
 - Some minor code cleanups (thanks to Prakash K. Cheemplavam).
 - Fixed missing cleanup at program exit in case there is a problem with a plugin
-  (thanks to Mattias Grönlund for pointing this out).
+  (thanks to Mattias Grï¿½nlund for pointing this out).
 - Increased the required free buffer space in the resultBuffer of cRemux to
   2 * IPACKS to avoid a buffer overflow in case a cTS2PES writes one complete
   packet and then (within processing the same TS packet) wants to write another
@@ -3088,13 +3088,13 @@ Video Disk Recorder Revision History
   Moved the wait into cDevice::AttachReceiver() instead.
 - Immediately displaying the new channel info when switching channel groups.
 - Moved the main program loop variables further up to allow compilation with
-  older compiler versions (thanks to Marco Schlüßler for reporting this one).
+  older compiler versions (thanks to Marco Schlï¿½ï¿½ler for reporting this one).
 - Now calling pthread_cond_broadcast() in the destructor of cCondWait and
   cCondVar to make sure any sleepers will wake up (suggested by Werner Fink).
   Also using pthread_cond_broadcast() instead of pthread_cond_signal() in
   cCondWait, in case there is more than one sleeper.
 - Making sure that timers and channels are only saved together, in a consistent
-  manner (thanks to Mirko Dölle for reporting a problem with inconsistent
+  manner (thanks to Mirko Dï¿½lle for reporting a problem with inconsistent
   channel and timer lists).
 - Now handling the channel name, short name and provider separately. cChannel
   therefore has two new functions, ShortName() and Provider(). ShortName()
@@ -3103,7 +3103,7 @@ Video Disk Recorder Revision History
   true to make it return the name, if no short name is available.
   The sequence of 'name' and 'short name' in the channels.conf file has been
   swapped (see man vdr(5)).
-- Added the 'portal name' to cChannels (thanks to Marco Schlüßler).
+- Added the 'portal name' to cChannels (thanks to Marco Schlï¿½ï¿½ler).
 - Fixed handling key codes that start with 0x1B in the KBD remote control code.
 - Now using qsort() to sort cListBase lists. For this, the virtual function
   cListObject::operator<() has been replaced with cListObject::Compare().
@@ -3127,10 +3127,10 @@ Video Disk Recorder Revision History
 - Added missing calls to cStatus::MsgOsdClear() in cSkins::Message() (thanks
   to Joachim Wilke for reporting this one, and Andreas Regel for additional
   input).
-- Fixed the cDvbSpuDecoder (thanks to Marco Schlüßler).
+- Fixed the cDvbSpuDecoder (thanks to Marco Schlï¿½ï¿½ler).
 - Fixed handling of pmAudioOnlyBlack (thanks to Stefan Huelswitt).
 - Fixed a short glitch when starting a recording on the primary device while
-  in replay or transfer mode (thanks to Marco Schlüßler).
+  in replay or transfer mode (thanks to Marco Schlï¿½ï¿½ler).
 - Added missing initialization of cEvent::seen.
 - Checking PID language codes for ISO 639 compliance to avoid problems with
   funny characters. Invalid language codes will be stored as "???".
@@ -3143,7 +3143,7 @@ Video Disk Recorder Revision History
 
 - Fixed cRemux::ScanVideoPacket() to make sure it doesn't access memory beyond
   the end of the given buffer, which has caused some unjustified "unknown
-  picture type errors" (thanks to Marco Schlüßler).
+  picture type errors" (thanks to Marco Schlï¿½ï¿½ler).
 - Fixed a possible crash when pausing live video and the recording was unable
   to start, maybe because there was no lock on the device (thanks to Andreas
   Brugger for reporting this one).
@@ -3158,7 +3158,7 @@ Video Disk Recorder Revision History
   to Stefan Huelswitt for pointing this out).
 - Fixed toggling the "Day" item in the "Timers" menu, so that it selects the
   right day of week for timers in the future.
-- Some improvements to cPoller (thanks to Marco Schlüßler).
+- Some improvements to cPoller (thanks to Marco Schlï¿½ï¿½ler).
 
 2005-01-09: Version 1.3.18
 
@@ -3193,7 +3193,7 @@ Video Disk Recorder Revision History
     have their own idea about this.
   + cChannel::[AD]pid[12]() have been replaced with cChannel::[AD]pid(int i) to
     allow access to all available PIDs.
-- Escaped the '-' and 'ö' characters in the man pages (thanks to Darren Salt for
+- Escaped the '-' and 'ï¿½' characters in the man pages (thanks to Darren Salt for
   pointing this out).
 - Completed the Italian OSD texts (thanks to Sean Carlos).
 - Fixed setting 'synced' in cRemux when recording radio channels (thanks to
@@ -3206,7 +3206,7 @@ Video Disk Recorder Revision History
 - Renamed font???.c to font???-iso8859-1.c for symmetry.
 - Switched the character set to iso8859-15 for English, German and Finnish (thanks
   to Andreas Brugger for reporting the missing Euro sign in iso8859-1).
-- Added 'channels.conf.terr' entries for Lübeck (thanks to Stefan Hußfeldt).
+- Added 'channels.conf.terr' entries for Lï¿½beck (thanks to Stefan Huï¿½feldt).
 - Fixed a race condition in starting a thread (thanks to Reinhard Nissl for
   reporting this one).
 - Replaced non-threadsafe library functions with their threadsafe versions (thanks
@@ -3274,18 +3274,18 @@ Video Disk Recorder Revision History
 - The "Left" and "Right" keys in the "Audio" menu can be used to switch between
   the left and right stereo channels in case there are different audio tracks
   in these channels (see MANUAL for details).
-- Fixed a possible race condition in cDevice::Action() (thanks to Mattias Grönlund).
+- Fixed a possible race condition in cDevice::Action() (thanks to Mattias Grï¿½nlund).
 - Fixed the default quality value when grabbing a JPEG image (thanks to Patrick
   Gleichmann).
 - Fixed deleting a menu item in case the next item is not selectable (thanks to
   Dino Ravnic).
 - Implemented displaying mandatory subtitles in the SPU decoder (thanks to Marco
-  Schlüßler).
+  Schlï¿½ï¿½ler).
 - The setup option "Recording/Record Dolby Digital" has been renamed and moved to
   "DVB/Use Dolby Digital". It now controls whether Dolby Digital is recorded and
   whether an available DD audio track will appear in the "Audio" menu.
 - Added support for circular polarization (thanks to Jonan Santiago).
-- Thanks to Werner Fink, Reinhard Nissl, Sascha Volkenandt and Bjørnar Nilsen for
+- Thanks to Werner Fink, Reinhard Nissl, Sascha Volkenandt and Bjï¿½rnar Nilsen for
   their support in testing and fine tuning this version.
 
 2005-01-23: Version 1.3.19
@@ -3299,7 +3299,7 @@ Video Disk Recorder Revision History
 - Completed the Estonian OSD texts and switched to iso8859-13 character set
   (thanks to Arthur Konovalov).
 - Made cCondWait::SleepMs() sleep at least 3ms to avoid a possible busy wait.
-- Fixed canceling the LIRC thread (thanks to Marco Schlüßler for pointing out
+- Fixed canceling the LIRC thread (thanks to Marco Schlï¿½ï¿½ler for pointing out
   this one).
 - The "Green" button in the "Main" menu is now always "Audio", since the audio
   channel might be changed even if there is only one actual audio PID.
@@ -3322,16 +3322,16 @@ Video Disk Recorder Revision History
   (thanks to Stefan Huelswitt).
 - Extended some buffer sizes to allow handling HDTV streams (thanks to Reinhard
   Nissl).
-- Added 'channels.conf.terr' entries for Düsseldorf and Köln (thanks to Walter Koch).
+- Added 'channels.conf.terr' entries for Dï¿½sseldorf and Kï¿½ln (thanks to Walter Koch).
 - Falling back to 'stereo' when switching channels in case the user had switched
   to 'left' or 'right' (suggested by Rolf Groppe).
 - Completed the Danish OSD texts (thanks to Mogens Elneff).
 - Recording and Transfer Mode can now handle up to 8 Dolby Digital tracks (thanks
-  to Marco Schlüßler for a patch that implements substream handling into
+  to Marco Schlï¿½ï¿½ler for a patch that implements substream handling into
   cDevice::PlayPesPacket(), and Reinhard Nissl for adding substream handling to
   cDolbyRepacker).
 - Added PlayPes(NULL, 0) to cTransfer::Action() when clearing the transfer buffer
-  to avoid overflows (thanks to Marco Schlüßler for pointing this out).
+  to avoid overflows (thanks to Marco Schlï¿½ï¿½ler for pointing this out).
 
 2005-02-06: Version 1.3.20
 
@@ -3360,7 +3360,7 @@ Video Disk Recorder Revision History
   (thanks to Reinhard Nissl).
 - Fixed several memory leaks that were introduced through the use of cString (thanks
   to Stefan Huelswitt for reporting these).
-- Added CMD_SPU_CHG_COLCON to cDvbSpuDecoder::setTime() (thanks to Marco Schlüßler).
+- Added CMD_SPU_CHG_COLCON to cDvbSpuDecoder::setTime() (thanks to Marco Schlï¿½ï¿½ler).
 - Making sure the current audio track is actually one of the ones available in a
   recording (thanks to Sascha Volkenandt for reporting a problem when starting
   replay of a recording that has no Dolby Digital audio after switching to a channel
@@ -3387,18 +3387,18 @@ Video Disk Recorder Revision History
 - Fixed handling symbolic links in cRecordings::ScanVideoDir() (thanks to Stefan
   Huelswitt).
 - Completed the Danish OSD texts (thanks to Mogens Elneff).
-- Forcing a new resync after a call to cRemux::Clear() (suggested by Marco Schlüßler).
+- Forcing a new resync after a call to cRemux::Clear() (suggested by Marco Schlï¿½ï¿½ler).
 - The cAudio::Play() function now has an additional parameter 'uchar Id' which tells
   the function the substream id of the given audio packet, so that a plugin can
   take the right action for the various kinds if audio data - which now also includes
   "normal" audio with ids 0xC0...0xDF (based on suggestions by Werner Fink and Macro
-  Schlüßler).
+  Schlï¿½ï¿½ler).
 - Removed the "Cleared/PlayPes(NULL, 0)" handling from cTransfer::Action(), since this
-  is now done when attaching the player to the device (thanks to Marco Schlüßler).
+  is now done when attaching the player to the device (thanks to Marco Schlï¿½ï¿½ler).
 - Making sure the buffer reserve in cTransfer::Action() is re-established after
   clearing the buffer.
 - Added DeviceClrAvailableTracks() and DeviceSetCurrentAudioTrack() to cPlayer
-  (thanks to Marco Schlüßler).
+  (thanks to Marco Schlï¿½ï¿½ler).
 - Fixed a typo in detecting UTF-8 (thanks to Reinhard Nissl).
 - Now using twice the buffer reserve in cTransfer if the primary DVB card is an
   unmodified version with only 2MB of SDRAM, to avoid audio stuttering when
@@ -3408,29 +3408,29 @@ Video Disk Recorder Revision History
   Dolby Digital compatibility mode".
 - The 'plugins-clean' target of the Makefile now only deletes the actual plugin
   library files from this version of VDR (suggested by Andreas Brachold).
-- Added a missing 'resultSkipped = 0' to cRemux::Clear() (thanks to Marco Schlüßler
+- Added a missing 'resultSkipped = 0' to cRemux::Clear() (thanks to Marco Schlï¿½ï¿½ler
   for reporting this one).
 - The new function cDvbDevice::SetTransferModeForDolbyDigital() can be used by
   plugins that implement Dolby Digital output and thus want to prevent the cDvbDevice
   from starting Transfer Mode in order to replay DD over the DVB device.
 - Added missing reset of the 'repacker' to cTS2PES::Clear() (thanks to Marco
-  Schlüßler for reporting this one).
+  Schlï¿½ï¿½ler for reporting this one).
 
 2005-02-27: Version 1.3.22
 
 - Removed some unneeded code and fixed access to unallocated memory in
   cEvent::FixEpgBugs() (thanks to Wolfgang Rohdewald).
 - Avoiding unnecessary calls to SetPid() in cDvbDevice::SetAudioTrackDevice()
-  (thanks to Marco Schlüßler).
+  (thanks to Marco Schlï¿½ï¿½ler).
 - No longer calling EnsureAudioTrack() in cDevice::SetChannel() if a Transfer Mode is
   started, to avoid setting the audio PID on the primary device (thanks to Marco
-  Schlüßler for pointing this out).
+  Schlï¿½ï¿½ler for pointing this out).
 - Replaced the call to system("sync") in SpinUpDisk() with fdatasync(f) to avoid
   problems on NPTL systems (thanks to Chris Warren for pointing this out).
 - Increased POLLTIMEOUTS_BEFORE_DEVICECLEAR in transfer.c to 6 to avoid problems
-  with the larger buffer reserve (thanks to Marco Schlüßler).
+  with the larger buffer reserve (thanks to Marco Schlï¿½ï¿½ler).
 - Fixed the call to SetVideoFormat() in cDvbDevice::cDvbDevice() (parameter is _bool_).
-- Added support for setting the video display mode (thanks to Marco Schlüßler).
+- Added support for setting the video display mode (thanks to Marco Schlï¿½ï¿½ler).
 - The new setup option "DVB/Video display format" can be used to define which display
   format to use for playing wide screen video on a 4:3 tv set.
 - Changed MAXDPIDS to 16 (8xAC3 + 8xDTS) (thanks to Werner Fink for pointing this out).
@@ -3457,14 +3457,14 @@ Video Disk Recorder Revision History
   with the same VPS time.
 - Fixed cDolbyRepacker to allow recording ProSieben HD broadcasts (thanks to Reinhard
   Nissl).
-- Fixed cDvbDevice::SetVideoDisplayFormat() in case of 16:9 (thanks to Marco Schlüßler).
+- Fixed cDvbDevice::SetVideoDisplayFormat() in case of 16:9 (thanks to Marco Schlï¿½ï¿½ler).
 - The running status of a VPS event is now only taken seriously if that event has been
   seen within the last 30 seconds - otherwise recording is done as if no VPS was
   available.
 - The day of a timer is now stored as a full date in ISO notation ("YYYY-MM-DD") in
   'timers.conf' and for the result of the SVDRP command LSTT (based in parts on a
-  patch by Roman Krenický).
-- Some fixes to avoid compiler warnings in gcc 4.0 (thanks to Ville Skyttä for reporting
+  patch by Roman Krenickï¿½).
+- Some fixes to avoid compiler warnings in gcc 4.0 (thanks to Ville Skyttï¿½ for reporting
   these).
 - Single shot timers are now reliably deleted when they have expired.
 - Fixed setting the colored button help after deleting a recording in case the next
@@ -3477,20 +3477,20 @@ Video Disk Recorder Revision History
 2005-05-08: Version 1.3.24
 
 - Now including the optional user defined Make.config from the 'libsi' Makefile
-  (thanks to Ville Skyttä).
+  (thanks to Ville Skyttï¿½).
 - Updated the Danish OSD texts (thanks to Mogens Elneff).
 - Fixed a memory leak in tComponent (thanks to Stefan Huelswitt and Daniel Thompson).
 - Fixed a memory leak in cDvbPlayer (thanks to Stefan Huelswitt).
 - Added missing text internationalization for "Starting EPG scan" (thanks to
-  Matthias Lötzke).
+  Matthias Lï¿½tzke).
 - Updated the Finnish OSD texts (thanks to Rolf Ahrenberg).
-- Fixed handling transparent areas in cDvbSpuBitmap (thanks to Marco Schlüßler).
+- Fixed handling transparent areas in cDvbSpuBitmap (thanks to Marco Schlï¿½ï¿½ler).
 - Now also considering the "EPG linger time" when saving the EPG data to file or
-  listing it via LSTE (thanks to Roman Krenický).
+  listing it via LSTE (thanks to Roman Krenickï¿½).
 - Fixed handling fragments of less than 4 byte in cPesAssembler (thanks to
   Reinhard Nissl).
 - Fixed a bug in libsi's SubtitlingDescriptor::getLength() (thanks to Marco
-  Schlüßler).
+  Schlï¿½ï¿½ler).
 - When reading the channels.conf file, duplicate channels (i.e. ones that have
   the same channel ID) are now automatically deleted and only the first one is
   actually stored.
@@ -3503,7 +3503,7 @@ Video Disk Recorder Revision History
 - The timer status now has a new bit that is set when that timer is currently
   recording (suggested by Matthias Schniedermeyer). See man vdr(5) for details.
 - Removed scaling coordinates in letterbox mode from cDvbSpu - the DVD plugin, which
-  was the only one needing this, doesn't need it any more (thanks to Marco Schlüßler).
+  was the only one needing this, doesn't need it any more (thanks to Marco Schlï¿½ï¿½ler).
 - No longer retuning or restarting a recording if only the language code of an
   audio or Dolby PID changes.
 - Now preferring budget cards when selecting a DVB device for recording.
@@ -3511,7 +3511,7 @@ Video Disk Recorder Revision History
 - Some rearrangements in cDvbPlayer::Action() to avoid lockups on NPTL systems
   (thanks to Reinhard Nissl).
 - Fixed a wrong inheritance in libsi's SubtitlingDescriptor::Subtitling (thanks to
-  Marco Schlüßler).
+  Marco Schlï¿½ï¿½ler).
 
 2005-05-29: Version 1.3.25
 
@@ -3548,15 +3548,15 @@ Video Disk Recorder Revision History
 - Avoiding extra blanks at the end of names of instant recordings.
 - Removed converting byte order on big endian systems from cDvbOsd::Flush(),
   which, according to Johannes Stezenbach and Paavo Hartikainen, is wrong.
-- Added cPlayer::DeviceSetVideoDisplayFormat() (thanks to Marco Schlüßler).
+- Added cPlayer::DeviceSetVideoDisplayFormat() (thanks to Marco Schlï¿½ï¿½ler).
 - No longer saving the setup in case of a fatal error, to keep the volume level
-  from being set to a wrong value (thanks to Marco Schlüßler).
+  from being set to a wrong value (thanks to Marco Schlï¿½ï¿½ler).
 - Fixed a possible hangup when ending a replay session while cIndexFile::CatchUp()
-  is waiting (thanks to Marco Schlüßler).
+  is waiting (thanks to Marco Schlï¿½ï¿½ler).
 - The SVDRP command DELR no longer deletes recordings that are currently being
   written to by a timer (thanks to Sascha Volkenandt for pointing out this one).
 - Pressing the "Play" key in live viewing mode now resumes a previous replay
-  session (thanks to Mirko Dölle).
+  session (thanks to Mirko Dï¿½lle).
 - Now dropping EPG events that have a zero start time or duration (thanks to
   Oliver Endriss).
 - No longer stopping Transfer Mode or replay immediately when the Power button
@@ -3584,7 +3584,7 @@ Video Disk Recorder Revision History
 - Updated the Finnish OSD texts (thanks to Rolf Ahrenberg).
 - Fixed handling 'summary.vdr' files with more than two empty lines (thanks to
   Christian Jacobsen for reporting this one).
-- Improved resetting CAM connections (thanks to Marco Schlüßler).
+- Improved resetting CAM connections (thanks to Marco Schlï¿½ï¿½ler).
 - Implemented cVideoRepacker in remux.c to make sure every PES packet contains
   only data from one frame (thanks to Reinhard Nissl).
   NOTE: currently this doesn't work with MPEG1, so if you use MPEG1 you may want
@@ -3660,7 +3660,7 @@ Video Disk Recorder Revision History
 - Fixed an out-of-bounds memory access with audio language ids (thanks to
   Matthias Lenk for reporting, and Udo Richter for suggesting a fix).
 - Updated the Finnish OSD texts (thanks to Rolf Ahrenberg).
-- Added missing storing of the MenuScrollPage parameter (thanks to Frank Krömmelbein).
+- Added missing storing of the MenuScrollPage parameter (thanks to Frank Krï¿½mmelbein).
 - Added cRemux::SetTimeouts() for better use of cRemux in a single thread (thanks
   to Udo Richter for reporting a problem with this).
 - Modified cEITScanner::Process() so that it uses the primary device if it is
@@ -3669,7 +3669,7 @@ Video Disk Recorder Revision History
   Bernhard Stegmaier for reporting a problem with this).
 - Fixed cDvbSpuBitmap::putPixel() (thanks to Reinhard Nissl).
 - Fixed setting system time to avoid time jumps in case of faulty data (thanks
-  to Andreas Böttger).
+  to Andreas Bï¿½ttger).
 - Fixed a memory leak in the SVDRP command LSTE (thanks to Stefan Huelswitt).
 
 2005-08-15: Version 1.3.29
@@ -3679,7 +3679,7 @@ Video Disk Recorder Revision History
   have been replaced by the cThread::Running() function.
   Plugin authors may want to check their derived cThread classes and replace any 'active'
   variables the same way as, for instance, done in transfer.c.
-- Fixed handling EPG data for time shifted events (thanks to Marco Schlüßler).
+- Fixed handling EPG data for time shifted events (thanks to Marco Schlï¿½ï¿½ler).
 - Increased the default value for 'Min. user inactivity' to 300 minutes (suggested
   by Helmut Auer).
 - Now storing the channel id in the info.vdr file even if there is no EPG info
@@ -3688,7 +3688,7 @@ Video Disk Recorder Revision History
 - Added some 'mkdir -p' to the Makefile's 'install' target (thanks to Wayne Keer).
 - Changed the title of the recording info menu (thanks to Rolf Ahrenberg).
 - Fixed handling the frame number display if '7' is pressed before the first editing
-  mark, or '9' after the last one (thanks to Thomas Günther).
+  mark, or '9' after the last one (thanks to Thomas Gï¿½nther).
 - Now discarding any previous numerical input to switch channels if Up, Down, Channel+,
   Channel-, Left or Right is pressed (thanks to Wolfgang Rohdewald for reporting a
   problem with this).
@@ -3733,9 +3733,9 @@ Video Disk Recorder Revision History
 - Removed the TUNER_LOCK_TIMEOUT in cDevice::AttachReceiver() since it caused more
   trouble than it fixed.
 - Fixed detecting short channel names for "Kabel Deutschland", who uses a comma
-  as delimiter (thanks to Marco Schlüßler).
+  as delimiter (thanks to Marco Schlï¿½ï¿½ler).
 - Moved cMenuEditTimer and cMenuEvent to menu.h so that plugins can use it (suggested
-  by Thomas Günther).
+  by Thomas Gï¿½nther).
 - The new static function cString::sprintf() can be used to easily create a formatted
   string.
 - Plugins can now implement their own SVDRP commands (based on a patch from Hardy
@@ -3762,7 +3762,7 @@ Video Disk Recorder Revision History
 - Updated the Swedish OSD texts (thanks to Tomas Prybil).
 - Updated the Slovenian OSD texts (thanks to Matjaz Thaler).
 - Updated the Danish OSD texts (thanks to Mogens Elneff).
-- Made LIRC command parsing more robust (thanks to Ville Skyttä).
+- Made LIRC command parsing more robust (thanks to Ville Skyttï¿½).
 - Introduced a separate 'plugins-install' target in the Makefile (thanks to Daniel
   Thompson).
 - Re-introduced the code that waits for a tuner lock in VDR/device.c, since
@@ -3772,7 +3772,7 @@ Video Disk Recorder Revision History
 - Adjusted the Makefile to the dvb-kernel driver on kernel 2.6 and up (thanks to
   Lauri Tischler).
 - Repeat keys are now ignored when waiting for a keypress to cancel an operation
-  (thanks to Marko Mäkelä).
+  (thanks to Marko Mï¿½kelï¿½).
 - The main menu function of a plugin can now be activated through a key macro of
   the form "@plugin" even if that plugin doesn't have a main menu entry (using
   part of a patch by Hardy Flor, which originally implemented calling plugins from
@@ -3797,8 +3797,8 @@ Video Disk Recorder Revision History
 - If the preferred audio language is broadcast on a PID that has two different
   languages in the two stereo channels, the audio channel is now properly set when
   switching to such a channel (thanks to Mogens Elneff for his help in testing this).
-- Fixed some typos in MANUAL (thanks to Ville Skyttä).
-- Fixed the default value for "Setup/EPG bugfix level" (thanks to Ville Skyttä for
+- Fixed some typos in MANUAL (thanks to Ville Skyttï¿½).
+- Fixed the default value for "Setup/EPG bugfix level" (thanks to Ville Skyttï¿½ for
   reporting this one).
 - Fixed defining timers that only differ in the day of week (thanks to Patrick
   Rother for reporting this one).
@@ -3810,7 +3810,7 @@ Video Disk Recorder Revision History
 2005-09-25: Version 1.3.33
 
 - Fixed two errors in 'newplugin' (thanks to Alexander Rieger).
-- Fixed converting arbitrarily formatted summary.vdr files (thanks to Thomas Günther).
+- Fixed converting arbitrarily formatted summary.vdr files (thanks to Thomas Gï¿½nther).
 - Fixed handling color buttons in cMenuEditStrItem (thanks to Alexander Rieger).
 - Added cChannel::LinkChannels() and cChannel::RefChannel() (suggested by Helmut Auer).
   Note that VDR itself doesn't actually use the linked channels, yet, so there is
@@ -3836,7 +3836,7 @@ Video Disk Recorder Revision History
   into the respective code block. Thanks to Carsten Koch for his help in testing
   and debugging this.
 - The 'new' indicator in the Recordings menu is now kept up-to-date (thanks to
-  Thomas Günther).
+  Thomas Gï¿½nther).
 - Updated the Romanian OSD texts (thanks to Lucian Muresan).
 - Updated the Russian OSD texts (thanks to Oleg Roitburd).
 - The '.update' file in the video directory is now touched when a recording is
@@ -3857,7 +3857,7 @@ Video Disk Recorder Revision History
 - Fixed a crash in cConfig::Load() when compiling on the PPC (thanks to Sascha
   Volkenandt).
 - Fixed the FATALERRNO macro to check for a non-zero errno value (reported by Marco
-  Schlüßler).
+  Schlï¿½ï¿½ler).
 - Added a check against MAXOSDAREAS in cOsd::CanHandleAreas() (reported by Udo
   Richter).
 - Fixed setting current menu item if the first one is non-selectable.
@@ -3898,21 +3898,21 @@ Video Disk Recorder Revision History
 - Updated the Danish OSD texts (thanks to Mogens Elneff).
 - Updated the Estonian OSD texts (thanks to Arthur Konovalov).
 - Added missing mutex locks to cCiMenu::Abort() and cCiEnquiry::Abort() (reported
-  by Marco Schlüßler).
+  by Marco Schlï¿½ï¿½ler).
 - Fixed lock handling in CAM communication to avoid problems with multiple CAMs
   per device or CAMs with more than one smart card.
 - Updated the Greek OSD texts (thanks to Dimitrios Dimitrakos).
 - Updated the French OSD texts (thanks to Nicolas Huillard).
 - Fixed the cFilter example in PLUGINS.html (reported by Patrick Fischer).
 - The new class cUnbufferedFile is used for the recording files to avoid
-  trashing the file system cache (based on a patch by Ralf Müller).
+  trashing the file system cache (based on a patch by Ralf Mï¿½ller).
 
 2005-11-06: Version 1.3.36
 
 - Fixed a NULL pointer access with the cUnbufferedFile when a replay session runs
   all the way until the end of the recording (thanks to Joachim Wilke).
 - A menu is no longer automatically closed when a replay ends (reported by
-  Marko Mäkelä).
+  Marko Mï¿½kelï¿½).
 - Removed '\n' from several syslog() calls (reported by Sascha Volkenandt).
 - Fixed missing '&' in the SetAreas() example in PLUGINS.html (reported by
   Sascha Volkenandt).
@@ -3927,7 +3927,7 @@ Video Disk Recorder Revision History
   commands of any length. The MAXPARSEBUFFER macro is now obsolete and has
   been removed. If a plugin has used that macro, it should either define
   a buffer size of its own, or use cReadLine when reading files.
-- Fixed a race condition in the SPU decoder (thanks to Marco Schlüßler).
+- Fixed a race condition in the SPU decoder (thanks to Marco Schlï¿½ï¿½ler).
 - The EPG scan no longer disturbs players that have also set live PIDs
   (reported by Stefan Huelswitt).
 - Fixed setting the help key display in the Recordings menu in case of several
@@ -3938,7 +3938,7 @@ Video Disk Recorder Revision History
 
 - Added compiler options "-fPIC -g" to all plugins (thanks to Rolf Ahrenberg).
 - Fixed initializing the day index when editing the weekday parameter of a
-  repeating timer (thanks to Marco Schlüßler).
+  repeating timer (thanks to Marco Schlï¿½ï¿½ler).
 - No longer removing superfluous hyphens in EPG data - would become too
   language dependent to handle all kinds of exceptions.
 - Modified switching to Dolby Digital audio in live mode, if the driver
@@ -3947,7 +3947,7 @@ Video Disk Recorder Revision History
   LinuxDVB driver with firmware version 0x2622 or higher. Older versions will
   use Transfer Mode just like before.
 - Implemented handling of the "CA PMT Reply" for CAMs (thanks to Marco
-  Schlüßler for figuring out some obscure length bytes in the CA PMT Reply
+  Schlï¿½ï¿½ler for figuring out some obscure length bytes in the CA PMT Reply
   data of AlphaCrypt CAMs).
 - Some preparations for being able to record several encrypted channels from
   the same transponder at the same time (or record and view different encrypted
@@ -3988,7 +3988,7 @@ Video Disk Recorder Revision History
   the disk space). The count starts again at 0 every time VDR is started.
 - Fixed a possible crash when displaying the "Low disk space!" message from
   a background thread (thanks to Christof Steininger).
-- Fixed handling OSD areas that have invalid sizes (thanks to Marco Schlüßler).
+- Fixed handling OSD areas that have invalid sizes (thanks to Marco Schlï¿½ï¿½ler).
 - Added a mutex to AssertFreeDiskSpace() to make sure calls from foreground
   and background threads won't interfere.
 - The main menu now dynamically updates its contents in case an instant
@@ -4037,8 +4037,8 @@ Video Disk Recorder Revision History
   '/' or symlinks. By default, or if "-g- is given, grabbing to files is
   not allowed any more because of potential security risks.
 - Modified the way the SVDRP command GRAB writes the grabbed image to a file
-  to avoid a security hole (CAN-2005-0071, reported by Javier Fernández-Sanguino
-  Peña):
+  to avoid a security hole (CAN-2005-0071, reported by Javier Fernï¿½ndez-Sanguino
+  Peï¿½a):
   + The file handle is now opened in a way that it won't follow symbolic links
     (suggested by Darren Salt).
   + The given file name is now canonicalized, so that it won't contain any
@@ -4062,14 +4062,14 @@ Video Disk Recorder Revision History
 - The DVB devices now retune (and, if applicable, resend the DiSEqC data) if
   the lock is lost (based on a patch from Reinhard Nissl).
 - Fixed handling multi byte key sequences in cKbdRemote (based on a patch from
-  Jürgen Schneider).
+  Jï¿½rgen Schneider).
 - Removed unused variables in skinclassic.c and skinsttng.c (thanks to Marco
-  Schlüßler).
+  Schlï¿½ï¿½ler).
 - Made the static cControl functions thread safe (thanks to Patrick Fischer).
 - Fixed initializing pthread_mutexattr_t and pthread_rwlockattr_t to avoid
-  warnings with g++ 4.1.0 (thanks to Ville Skyttä).
+  warnings with g++ 4.1.0 (thanks to Ville Skyttï¿½).
 - Fixed incrementing the 'state' variables in the repacker classes in remux.c
-  to avoid warnings with g++ 4.1.0 (reported by Ville Skyttä).
+  to avoid warnings with g++ 4.1.0 (reported by Ville Skyttï¿½).
 - The Makefile now reports a summary of failed plugins (thanks to Udo Richter).
 - The cTimer constructor can now take an optional cChannel (suggested by
   Patrick Fischer).
@@ -4078,7 +4078,7 @@ Video Disk Recorder Revision History
 - Added cTimer::SetPriority() to set a timer's priority (suggested by Kendy Kutzner).
 - Added cMenuEditStrItem::InEditMode() (suggested by Christian Wieninger).
 - Now using FE_READ_STATUS to read the current frontend status (suggested by
-  Holger Wächtler).
+  Holger Wï¿½chtler).
 - The "Menu" key now behaves consistently. If there is anything on the OSD, it
   is closed when the "Menu" key is pressed, and if there is nothing on the OSD,
   the "Menu" key opens the main menu (suggested by Luca Olivetti).
@@ -4125,7 +4125,7 @@ Video Disk Recorder Revision History
   telephone keypad (based on the "Easy Input" patch from Marcel Schaeben).
 - Fixed the "Day" field of the "Edit timer" menu when pressing '0' to switch
   from "single shot" to "weekly", followed by the "Right" key (reported by
-  Andreas Böttger).
+  Andreas Bï¿½ttger).
 - The file 'ca.conf' is obsolete and has been removed.
 - Revised all descriptions regarding CICAM.
 - Adapted c(Dvb)Device::ProvidesCa() to the dynamic CA handling.
@@ -4140,7 +4140,7 @@ Video Disk Recorder Revision History
 - The SVDRP command LSTT now accepts the new option 'id' to have the channels
   of the timers listed with their unique channel ids instead of their numbers
   (suggested by Matthias Schniedermeyer).
-- Added a missing #include <linux/unistd.h> to thread.c (thanks to Ville Skyttä).
+- Added a missing #include <linux/unistd.h> to thread.c (thanks to Ville Skyttï¿½).
 - Fixed the "plugins-clean" and "plugins-install" targets in the Makefile (thanks
   to Andreas Brachold).
 - Fixed handling "more than 3 byte" key sequences in cKbdRemote::ReadKeySequence()
@@ -4150,7 +4150,7 @@ Video Disk Recorder Revision History
 - To avoid problems with access rights when VDR shall run as 'root' it now skips
   all SetCaps() and SetUser() calls when it is started as 'root' and "-u root"
   is given.
-- Added missing i18n entry for the "Timer" button (thanks to Ville Skyttä)
+- Added missing i18n entry for the "Timer" button (thanks to Ville Skyttï¿½)
 - Updated the Finnish OSD texts (thanks to Rolf Ahrenberg).
 - Making the "Menu" key behave consistently has not been well received by several
   users, so the new option "Setup/OSD/Menu button closes" can be used to get the
@@ -4160,16 +4160,16 @@ Video Disk Recorder Revision History
   the 'root' user. If you want to have a default vdr user, you can activate and
   adjust the "VDR_USER = vdr" line in your Make.config file (from the original
   patch by Ludwig Nussel).
-- Key macros can now be defined for all non-modeless keys (suggested by Mirko Dölle).
+- Key macros can now be defined for all non-modeless keys (suggested by Mirko Dï¿½lle).
 - Adjusted the "KEY MACROS" section of vdr.5 to the new plugin calling mechanism
   introduced in version 1.3.32.
-- Removed the now obsolete "ca.conf" section from vdr.1 (thanks to Ville Skyttä).
+- Removed the now obsolete "ca.conf" section from vdr.1 (thanks to Ville Skyttï¿½).
 - Added missing description of L and R circular polarization to 'diseqc.conf'.
 - Added a note about "modprobe capability" to INSTALL (suggested by Patrick Cernko).
 - Fixed canonicalizing the file name in the SVDRP command GRAB to allow full path
   names (thanks to Stefan Huelswitt).
 - Added a missing '-' to the example for viewing a grabbed image on a remote host
-  (reported by Philippe Gramoullé).
+  (reported by Philippe Gramoullï¿½).
 - Made the "What's on now/next?" menus a lot faster by storing a pointer to each
   channel's schedule in the cChannel data.
 - Made the log messages regarding lost lock of devices "info" instead of "error"
@@ -4184,11 +4184,11 @@ Video Disk Recorder Revision History
 - The status markers in the "Schedule" menu are now only updated if a submenu is
   closed in which a timer has been modified, which speeds up closing submenus.
 - Now only writing Dolby Digital tracks into the 'info.vdr' file of a recording
-  if Setup.UseDolbyDigital is true (suggested by André Weidemann).
+  if Setup.UseDolbyDigital is true (suggested by Andrï¿½ Weidemann).
 - Added a leading '0' to the day in the DayDateTime() function (thanks to Rolf
   Ahrenberg).
 - No longer displaying color buttons in the recording info menu if it has been
-  invoked from a player (reported by Jürgen Schilling).
+  invoked from a player (reported by Jï¿½rgen Schilling).
 
 2006-01-22: Version 1.3.40
 
@@ -4199,7 +4199,7 @@ Video Disk Recorder Revision History
 - Fixed a problem with @plugin in keymacros.conf in case the named plugin is not
   loaded (reported by Franz Gangkofer).
 - Fixed a crash after executing the SVDRP command CLRE, caused by dangling 'schedule'
-  pointers from cChannel objects (reported by Malte Schröder).
+  pointers from cChannel objects (reported by Malte Schrï¿½der).
 - Updated the Finnish OSD texts (thanks to Rolf Ahrenberg).
 - Improved NULL checking in strreplace().
 - Fixed a crash in the Schedule menu with events that have no title (reported by
@@ -4244,10 +4244,10 @@ Video Disk Recorder Revision History
 - Now checking whether the channel exists before setting the PMT filter in
   cPatFilter::Process() (thanks to Thomas Bergwinkl).
 - Now trying to reestablish the connection to the LIRC daemon in case it breaks
-  (thanks to Ville Skyttä).
+  (thanks to Ville Skyttï¿½).
 - Updated the Finnish OSD texts (thanks to Rolf Ahrenberg).
 - Fixed channel switching with the Down (Up) key in case the current channel is
-  already the first (last) in the list (reported by Frank Krömmelbein).
+  already the first (last) in the list (reported by Frank Krï¿½mmelbein).
 - Removed the "buffer reserve" in Transfer Mode - it's no longer necessary with
   recent driver/firmware versions.
 - The epg.data file is now written when VDR exits (suggested by Daniel Karsubka).
@@ -4274,7 +4274,7 @@ Video Disk Recorder Revision History
 2006-02-05: Version 1.3.42
 
 - Removed leftover 'needsBufferReserve' variable from cTransfer (thanks to Marco
-  Schlüßler).
+  Schlï¿½ï¿½ler).
 - Fixed setting "No title" for broken event data (reported by Ronny Kornexl).
 - Fixed channel up/down switching on single card systems (reported by Stefan
   Huelswitt).
@@ -4282,8 +4282,8 @@ Video Disk Recorder Revision History
   (reported by Thomas Koch).
 - Speeded up cVideoRepacker (thanks to Reinhard Nissl).
 - Added an 'Id' parameter to cDevice::PlayAudio() to allow plugins to easier
-  process the audio data (thanks to Marco Schlüßler).
-- Added Czech language texts (thanks to Vladimír Bárta).
+  process the audio data (thanks to Marco Schlï¿½ï¿½ler).
+- Added Czech language texts (thanks to Vladimï¿½r Bï¿½rta).
   Plugin authors may want to add the new entries to their I18N texts and contact
   the translators to have their texts translated. Note that there are now 21
   different OSD languages, so please make sure you have 21 versions for each of
@@ -4306,7 +4306,7 @@ Video Disk Recorder Revision History
 - Fixed multiple entries of the same subdirectory in the "Recordings" menu
   (reported by Christian Jacobsen).
 - Enabled generating a core dump if VDR is run with a different user id (thanks
-  to Ville Skyttä).
+  to Ville Skyttï¿½).
 - Fixed handling the "Blue" key in the "Schedule" menu for the current channel
   (thanks to Rolf Ahrenberg).
 - Renamed the Makefile target 'plugins-clean' to 'clean-plugins' (suggested by
@@ -4326,12 +4326,12 @@ Video Disk Recorder Revision History
 - Now stopping scanning the video directory if there are too many levels of
   symbolic links, which might indicate a recursive link loop (based on a patch
   from Helmut Auer).
-- Improved OSD area handling in cDvbSpuDecoder (thanks to Marco Schlüßler).
+- Improved OSD area handling in cDvbSpuDecoder (thanks to Marco Schlï¿½ï¿½ler).
 - Now logging the description (if present) in case a thread is canceled (suggested
-  by Marco Schlüßler).
+  by Marco Schlï¿½ï¿½ler).
 - cMenuText now uses the given font (thanks to Rolf Ahrenberg).
 - The ST:TNG skin now uses the fixed font if requested when displaying texts.
-- Fixed some typos in the CONTRIBUTORS file (thanks to Frank Krömmelbein).
+- Fixed some typos in the CONTRIBUTORS file (thanks to Frank Krï¿½mmelbein).
 - Changed offset and size handling in 'libsi' from 'unsigned' to 'signed', so that
   overflows can be better detected (thanks to Marcel Wiesweg).
 - Checking data size in CaDescriptor::Parse() and LinkageDescriptor::Parse() of
@@ -4354,7 +4354,7 @@ Video Disk Recorder Revision History
 - If a recording starts and the channel's audio PID data has more language code
   information than the EPG's component data, the code from the channel is taken.
 - Fixed handling DPID when deciding whether to switch to 'Transfer Mode' (thanks
-  to Marco Schlüßler).
+  to Marco Schlï¿½ï¿½ler).
 - Fixed replaying recordings of radio channels with many audio tracks (thanks to
   Reinhard Nissl).
 - Added a comment to tChannelID::nid, explaining that is is actually the "original"
@@ -4464,7 +4464,7 @@ Video Disk Recorder Revision History
   (thanks to Rolf Ahrenberg).
 - Fixed broken entry 'A111.1W' in sources.conf (reported by Luca Olivetti).
 - Replaced the obsolete entry 'S21.5E' in the default 'diseqc.conf' with 'S13.0E'
-  (reported by Ville Skyttä).
+  (reported by Ville Skyttï¿½).
 - Fixed learning keys when VDR is already running (thanks to Jurij Retzlaff).
 - Fixed handling the system time transponder setting in the Setup/EPG menu, which
   was broken by the min/max fix in cMenuEditIntItem.
@@ -4504,22 +4504,22 @@ Video Disk Recorder Revision History
 
 - Updated the Finnish OSD texts (thanks to Rolf Ahrenberg).
 - Fixed a crash when setting the time transponder in the Setup menu, caused by the
-  new 'noneString' in cMenuEditChanItem (reported by Thomas Günther).
+  new 'noneString' in cMenuEditChanItem (reported by Thomas Gï¿½nther).
 - Added NULL checks to some strdup() calls in menuitems.c (suggested by Darren
   Salt).
 - Removed the unnecessary 'value' member from cMenuEditItem.
 - Fixed the initial setting of the time transponder setup parameter (reported
-  by Thomas Günther).
+  by Thomas Gï¿½nther).
 - Fixed unnecessary Set() calls in cMenuEditIntItem::ProcessKey().
 - Allowing a tolerance for symbol rate values that are off by one (thanks to
   Richard Lithvall).
 - Added VBITeletextDescriptorTag, TeletextDescriptorTag, LocalTimeOffsetDescriptorTag
-  and PremiereContentTransmissionDescriptor to 'libsi' (thanks to Marco Schlüßler).
+  and PremiereContentTransmissionDescriptor to 'libsi' (thanks to Marco Schlï¿½ï¿½ler).
 - Using geteuid() to check whether VDR is running as user 'root' (suggested by
   Tobias Grimm).
 - Added a missing "Key$" in skincurses.c (reported by Darren Salt).
 - Reintroduced the log message "deleting plugin: ..." when shutting down VDR (upon
-  request by Ville Skyttä, as in the initial patch from Christoph Haubrich).
+  request by Ville Skyttï¿½, as in the initial patch from Christoph Haubrich).
 - Fixed the vdr.1 man page (a single DVB card can record and do live tv).
 - The preferred audio language is now automatically selected when starting replay.
 - Updated the Danish OSD texts (thanks to Mogens Elneff).
@@ -4563,7 +4563,7 @@ Video Disk Recorder Revision History
    DEFINES += -D_GNU_SOURCE -DPLUGIN_NAME_I18N='"$(PLUGIN)"'
   ------------------------------------------------------------
 
-  Thanks to Marco Schlüßler for pointing out this problem.
+  Thanks to Marco Schlï¿½ï¿½ler for pointing out this problem.
 - Implemented kNext and kPrev keys (based on a patch from Peter Juszack).
   See MANUAL for details.
 - Implemented kChanPrev (from a patch from Darren Salt).
@@ -4629,8 +4629,8 @@ Video Disk Recorder Revision History
 
 2006-04-23: Version 1.3.48
 
-- Updated the GPL copies (thanks to Ville Skyttä).
-- Fixed several spelling errors (thanks to Ville Skyttä).
+- Updated the GPL copies (thanks to Ville Skyttï¿½).
+- Fixed several spelling errors (thanks to Ville Skyttï¿½).
 - Updated the Polish OSD texts (thanks to Jaroslaw Swierczynski).
 - Updated the Finnish OSD texts (thanks to Rolf Ahrenberg).
 - Updated the French OSD texts (thanks to Pierre Briec).
@@ -4645,7 +4645,7 @@ Video Disk Recorder Revision History
 - Updated the Swedish OSD texts (thanks to Tomas Prybil).
 - Modified the German OSD texts to be "less technical" (thanks to Andreas Brachold).
 - Extended the version number reported with the '-V' option to also show the
-  current APIVERSION (suggested by Thomas Günther).
+  current APIVERSION (suggested by Thomas Gï¿½nther).
 - Fixed handling empty titles in cEvent::FixEpgBugs() (reported by Rolf Ahrenberg).
 - Fixed some missing '-' in the German OSD texts (thanks to Walter Koch).
 - Added an error message about plugins that don't honor APIVERSION in their Makefile
@@ -4654,7 +4654,7 @@ Video Disk Recorder Revision History
   (thanks to Christian Wieninger for reporting, and Werner Schweer for pointing out
   that the 'z' modifier should be used here).
 - Ignoring k_Repeat when deciding whether the same key has been pressed in string
-  input fields (based on a patch from Marko Mäkelä).
+  input fields (based on a patch from Marko Mï¿½kelï¿½).
 
 2006-04-28: Version 1.3.49
 
@@ -4663,12 +4663,12 @@ Video Disk Recorder Revision History
   Oliver Endriss; thanks also to Udo Richter for a shorter version of the 'sed'
   expression).
 - Fixed broken APIVERSION extraction line in 'newplugin' (thanks to Oliver Endriss).
-- Fixed entering '0' in a cMenuEditIntItem (reported by Mirko Dölle).
+- Fixed entering '0' in a cMenuEditIntItem (reported by Mirko Dï¿½lle).
 - Updated the Italian OSD texts (thanks to Nino Gerbino).
 - Added a note about adding 'INCLUDES += -I$(DVBDIR)/include' to an existing
   Make.config (problem reported by Markus Ehrnsperger).
 - Fixed handling the cPluginManager::Active() result when pressing the "Power" key
-  (reported by Werner Färber).
+  (reported by Werner Fï¿½rber).
 - Added a hint about commenting out the line '#define USE_FADVISE' in tools.c in
   case of problems with replaying in fast forward mode if the video directory is
   mounted via a Samba share (reported by Andy Grobb).
@@ -4696,18 +4696,18 @@ Video Disk Recorder Revision History
   reporting that it still used DVBDIR).
 - Added 'eval' to the $VDRCMD call in 'runvdr' to avoid problems with quoting
   (suggested by Udo Richter).
-- Fixed missing ',' in the Italian and Polish OSD texts (thanks to Marko Mäkelä).
-- Updated the Czech OSD texts (thanks to Vladimír Bárta).
+- Fixed missing ',' in the Italian and Polish OSD texts (thanks to Marko Mï¿½kelï¿½).
+- Updated the Czech OSD texts (thanks to Vladimï¿½r Bï¿½rta).
 - Fixed handling the "Power" key in case a timer is about to start recording
   (thanks to Udo Richter).
-- Fixed the character 'r' in fontosd and fontsml for iso8859-2 (thanks to Vladimír
-  Bárta).
+- Fixed the character 'r' in fontosd and fontsml for iso8859-2 (thanks to Vladimï¿½r
+  Bï¿½rta).
 - When checking whether a VPS timer has entered the "VPS margin", the event's start
   time is now used instead of the timer's start time, because otherwise events that
   start way off of their VPS time wouldn't be recorded correctly.
 - If VPS timers are active, their events are now being kept up to date if there
   are any free devices available.
-- Fixed the character #207 in fontosd for iso8859-2 (thanks to Vladimír Bárta).
+- Fixed the character #207 in fontosd for iso8859-2 (thanks to Vladimï¿½r Bï¿½rta).
 - Fixed handling unknown codes when learning LIRC remote control codes (reported
   by Helmut Auer).
 - Since some channels (especially the Austrian ORF) randomly change the ids of their
@@ -4742,9 +4742,9 @@ Video Disk Recorder Revision History
 - Now processing the "frequency list descriptor" (based on a patch from Anssi Hannula).
 - Improved the repeat function for LIRC remote controls (thanks to Joerg Riechardt).
 - Fixed moving channels, which sometimes stopped the current replay session
-  (reported by Mirko Dölle).
+  (reported by Mirko Dï¿½lle).
 - Fixed deleting channels in case the current channel's number changes (reported
-  by Mirko Dölle).
+  by Mirko Dï¿½lle).
 
 2006-06-04: Version 1.4.0-3
 
@@ -4753,7 +4753,7 @@ Video Disk Recorder Revision History
 - Removed all the compatibility '#if APIVERSNUM...' stuff and instead increased
   the API version number - plugins will have to be recompiled.
 - Removed the call to pthread_setschedparam(childTid, SCHED_RR, 0) in thread.c,
-  because it caused a compiler warning with post-2.4 glibc (reported by Ville Skyttä).
+  because it caused a compiler warning with post-2.4 glibc (reported by Ville Skyttï¿½).
   Since the third parameter has to be non-null to have any effect, the call was
   presumably a NOP, anyway.
 - Fixed the 'clean-plugins' target in the Makefile to also remove additional
@@ -4823,7 +4823,7 @@ Video Disk Recorder Revision History
 - Fixed handling relative volume settings in the call to cStatus::MsgSetVolume()
   (reported by Norbert Wentz).
 - Added a missing initialization of 'mutex' in cCiMenu::cCiMenu() and removed
-  some superfluous semicolons in ci.c (thanks to Marco Schlüßler).
+  some superfluous semicolons in ci.c (thanks to Marco Schlï¿½ï¿½ler).
 - Fixed handling client side termination of SVDRP connections (thanks to Frank
   Schmirler).
 - cDevice::GetDevice() now prefers any device that's already receiving and doesn't
@@ -4862,13 +4862,13 @@ Video Disk Recorder Revision History
 2006-08-13: Version 1.4.1-4
 
 - Fixed converting the port number in the "connect from..." log message of SVDRP
-  (thanks to Ville Skyttä).
+  (thanks to Ville Skyttï¿½).
 - Made the cCiSession members sessionId and resourceId uint16_t and uint32_t,
-  respectively, to match their types in the CI session data (thanks to Ville Skyttä
+  respectively, to match their types in the CI session data (thanks to Ville Skyttï¿½
   for reporting that there are places where ntohs() is assigned to different types).
 - Changed the way a device is selected for receiving in order to keep devices with
   CAMs better available, even if this means recording on the primary device (reported
-  by Jörn Reder; thanks to Anssi Hannula for improving handling Transfer Mode devices
+  by Jï¿½rn Reder; thanks to Anssi Hannula for improving handling Transfer Mode devices
   in this).
 - No longer stopping removing empty directories if an error occurs (thanks to
   Oliver Endriss).
@@ -4882,7 +4882,7 @@ Video Disk Recorder Revision History
   cDvbDevice::SetAudioTrackDevice() in order to prevent sticky PIDs in CAMs,
   which caused long switching times or completely blank screens when switching
   between encrypted channels on the same transponder (reported by Tomas Berglund).
-- Adapted cThread::ThreadId() to recent kernels (thanks to Ville Skyttä).
+- Adapted cThread::ThreadId() to recent kernels (thanks to Ville Skyttï¿½).
 - Added --remove-destination to the 'cp' command for binaries in the Makefile to
   avoid a crash in case a new version is installed on a running system (suggested
   by Petri Hintukainen).
@@ -4973,7 +4973,7 @@ Video Disk Recorder Revision History
 2006-10-22: Version 1.4.3-3
 
 - Fixed setting audio track descriptions after a replay has been stopped (reported
-  by Ulf Kiener, thanks to Marco Schlüßler for pointing out what caused the problem).
+  by Ulf Kiener, thanks to Marco Schlï¿½ï¿½ler for pointing out what caused the problem).
 
 2006-10-29: Version 1.4.3-4
 
@@ -4984,11 +4984,11 @@ Video Disk Recorder Revision History
 2006-11-04: Version 1.4.4
 
 - Fixed displaying the replay mode symbol in case of "Multi speed mode" (reported
-  by Marco Schlüßler).
+  by Marco Schlï¿½ï¿½ler).
 
 2006-12-03: Version 1.4.4-1
 
-- Some improvements to the man pages (thanks to Ville Skyttä).
+- Some improvements to the man pages (thanks to Ville Skyttï¿½).
 - Fixed a possible segfault in cSkins::Message() (thanks to Udo Richter).
 - Made the getskyepg.pl script of the 'sky' plugin send a user agent message to
   the server, according to the rules at http://bleb.org/tv/data/listings.
@@ -5003,7 +5003,7 @@ Video Disk Recorder Revision History
   Brugger). This required the APIVERSION to be increased, so plugins will have to
   be recompiled.
 - Now calling cPluginManager::Active() only if VDR is really trying to shut down,
-  and waiting for 5 minutes before calling it again (thanks to Jörg Wendel for
+  and waiting for 5 minutes before calling it again (thanks to Jï¿½rg Wendel for
   reporting that cPlugin::Active() was called too often, and to Udo Richter for
   some hints on how to improve this).
 - Replaced 'unsigned long' with 'uint32_t' and 'uint64' with 'uint64_t' to
@@ -5086,14 +5086,14 @@ Video Disk Recorder Revision History
 
 2007-01-28: Version 1.4.5-1
 
-- Fixed i18n characters for the Hungarian texts (thanks to Thomas Günther).
+- Fixed i18n characters for the Hungarian texts (thanks to Thomas Gï¿½nther).
 - Now using cPipe instead of popen() in cCommand::Execute() to avoid problems
   with open file handles when starting background commands (thanks to Reinhard
   Nissl).
 
 2007-02-24: Version 1.4.5-2
 
-- Removed 'assert(0)' from cDvbSpuDecoder::setTime() (thanks to Marco Schlüßler).
+- Removed 'assert(0)' from cDvbSpuDecoder::setTime() (thanks to Marco Schlï¿½ï¿½ler).
 - Fixed a possible crash when loading an invalid XPM file (thanks to Martin Wache).
 - Updated satellite names in 'sources.conf' (thanks to Thilo Wunderlich).
 - Fixed handling error status in cDvbTuner::GetFrontendStatus() (thanks to
@@ -5108,14 +5108,14 @@ Video Disk Recorder Revision History
 - Added cDevice::HasCi() so that devices with Common Interface can be avoided
   when tuning to an FTA channel, thus preserving the CAM resources even on budget
   DVB cards (suggested by Petri Helin).
-- Fixed i18n characters for the Hungarian texts (thanks to Thomas Günther).
+- Fixed i18n characters for the Hungarian texts (thanks to Thomas Gï¿½nther).
 - Now using cPipe instead of popen() in cCommand::Execute() to avoid problems
   with open file handles when starting background commands (thanks to Reinhard
   Nissl).
-- Removed 'assert(0)' from cDvbSpuDecoder::setTime() (thanks to Marco Schlüßler).
+- Removed 'assert(0)' from cDvbSpuDecoder::setTime() (thanks to Marco Schlï¿½ï¿½ler).
 - Fixed a possible crash when loading an invalid XPM file (thanks to Martin Wache).
 - Updated satellite names in 'sources.conf' (thanks to Thilo Wunderlich).
-- Adapted 'libsi' to DVB-S2 (thanks to Marco Schlüßler).
+- Adapted 'libsi' to DVB-S2 (thanks to Marco Schlï¿½ï¿½ler).
 - Fixed handling error status in cDvbTuner::GetFrontendStatus() (thanks to
   Reinhard Nissl).
 - Shutdown handling has been rewritten (thanks to Udo Richter).
@@ -5124,7 +5124,7 @@ Video Disk Recorder Revision History
 - The HUP signal now forces a restart of VDR (thanks to Udo Richter).
 - cThread::EmergencyExit() has been replaced by ShutdownHandler.RequestEmergencyExit().
 - Several references to "button" in a remote control context have been changed
-  to "key" (based on a report from Marko Mäkelä regarding the "Menu button closes"
+  to "key" (based on a report from Marko Mï¿½kelï¿½ regarding the "Menu button closes"
   text). The "MenuButtonCloses" parameter in 'setup.conf' has therefore been
   renamed to "MenuKeyCloses", accordingly. This will result in an "unknown config
   parameter: MenuButtonCloses" error message in the log file, so you may want to
@@ -5144,7 +5144,7 @@ Video Disk Recorder Revision History
 - Updated the Finnish OSD texts (thanks to Rolf Ahrenberg).
 - Fixed handling user activity for shutdown, which I had messed when adopting Udo's
   original patch (thanks to Udo Richter).
-- Added Turkish language texts (thanks to Oktay Yolgeçen).
+- Added Turkish language texts (thanks to Oktay Yolgeï¿½en).
 - Added missing rules for generating iso8859-13 font to Makefile.
 - 'libsi' now converts the incoming strings into the system's character set
   according to the DVB standard. The system's character set is determined from
@@ -5172,7 +5172,7 @@ Video Disk Recorder Revision History
   (thanks to Reinhard Nissl).
 - Fixed handling frequencies in NitFilter::Process() (thanks to Anssi Hannula).
 - Fixed handling ChannelUp/Down keys if there is currently a replay running
-  (thanks to Marco Schlüßler).
+  (thanks to Marco Schlï¿½ï¿½ler).
 - Increased the maximum number of CA system ids to cope with the AlphaCrypt
   CAM's version 3.11 firmware.
 
@@ -5182,7 +5182,7 @@ Video Disk Recorder Revision History
 
 2007-06-10: Version 1.5.3
 
-- Fixed some spelling errors in 'newplugin' (thanks to Ville Skyttä).
+- Fixed some spelling errors in 'newplugin' (thanks to Ville Skyttï¿½).
 - Fixed a busy loop in fast forward if the next video data file is missing
   (thanks to Reinhard Nissl).
 - Fixed handling frequencies in NitFilter::Process() (thanks to Anssi Hannula).
@@ -5191,7 +5191,7 @@ Video Disk Recorder Revision History
 - Non-primary devices in Transfer mode are now also used for recording (thanks
   to Anssi Hannula).
 - Fixed handling ChannelUp/Down keys if there is currently a replay running
-  (thanks to Marco Schlüßler).
+  (thanks to Marco Schlï¿½ï¿½ler).
 - The new SVDRP command REMO can be used to turn VDR's remote control off and
   on in case other programs need to be controlled (based on patches from Krzysztof
   Parma and Helmut Auer).
@@ -5238,7 +5238,7 @@ Video Disk Recorder Revision History
   the problem).
 - Adjusted the 'skincurses' plugin to UTF-8 handling.
 - Using nl_langinfo(CODESET) to determine the local codeset to use (thanks to
-  Thomas Günther). The codeset names in 'libsi/si.c' have been changed to the
+  Thomas Gï¿½nther). The codeset names in 'libsi/si.c' have been changed to the
   canonical spelling with '-' (thanks to Ludwig Nussel for pointing this out).
 - Modified handling invalid characters in VFAT mode.
 - Replaced strn0cpy() with Utf8Strn0Cpy() where necessary.
@@ -5279,7 +5279,7 @@ Video Disk Recorder Revision History
 2007-07-22: Version 1.5.6
 
 - Fixed a buffer overflow in initializing the system character table (thanks
-  to Marco Schlüßler).
+  to Marco Schlï¿½ï¿½ler).
 - Updated the Russian OSD texts (thanks to Oleg Roitburd).
 - Fixed handling single byte characters >0x7F in Utf8ToArray() (thanks to Udo
   Richter).
@@ -5297,7 +5297,7 @@ Video Disk Recorder Revision History
 - Added a table of the used trick speed values to the description of
   cDevice::TrickSpeed() (suggested by Martin Dauskardt).
 - Added a missing 'P' to vdr.c's SHUTDOWNCANCELROMPT macro (reported by Marco
-  Schlüßler).
+  Schlï¿½ï¿½ler).
 
 2007-08-12: Version 1.5.7
 
@@ -5307,9 +5307,9 @@ Video Disk Recorder Revision History
   the past.
 - Updated the Estonian OSD texts (thanks to Arthur Konovalov).
 - Fixed a problem with characters >0x7F in the modified version of skipspace()
-  (thanks to Marco Schlüßler).
+  (thanks to Marco Schlï¿½ï¿½ler).
 - Fixed a bug I introduced when simplifying the original patch for detecting
-  Premiere NVOD channel links (crash reported by Malte Schröder).
+  Premiere NVOD channel links (crash reported by Malte Schrï¿½der).
 - Internationalization is now done with 'gettext' (following a suggestion by
   Lucian Muresan). Plugin authors may want to use the Perl script
   'i18n-to-gettext.pl' to convert their internationalized texts to the gettext
@@ -5337,9 +5337,9 @@ Video Disk Recorder Revision History
   Alexander Rieger).
 - Added the "...or (at your option) any later version" phrase to the license
   information of all plugins, and also the 'newplugin' script (suggested by
-  Ville Skyttä). Plugin authors may want to consider doing the same.
+  Ville Skyttï¿½). Plugin authors may want to consider doing the same.
 - Fixed the link to the GPL2 at http://www.gnu.org in vdr.c (thanks to Ville
-  Skyttä).
+  Skyttï¿½).
 - cBitmap::SetXpm() now checks whether the given Xpm pointer is not NULL, to
   avoid a crash with files that only contain "/* XPM */" (suggested by Andreas
   Mair).
@@ -5350,7 +5350,7 @@ Video Disk Recorder Revision History
 
 - Added missing install-i18n to the install target in the Makefile (reported
   by Joachim Wilke).
-- Fixed a faulty comment in Make.config.template (reported by Marco Schlüßler).
+- Fixed a faulty comment in Make.config.template (reported by Marco Schlï¿½ï¿½ler).
 - Improved i18n-to-gettext.pl (thanks to Matthias Schwarzott).
 - Moved the "all" target in plugin Makefiles before the "Implicit rules",
   so that a plain "make" will compile everything (suggested by Matthias
@@ -5384,7 +5384,7 @@ Video Disk Recorder Revision History
 
 - Fixed handling locale directories with a large number of entries (thanks to
   Anssi Hannula).
-- Updated Turkish language texts (thanks to Oktay Yolgeçen).
+- Updated Turkish language texts (thanks to Oktay Yolgeï¿½en).
 - Fixed stripping the context in I18nTranslate() (reported by Christian
   Wieninger).
 - Fixed detecting whether a particular locale is actually supported.
@@ -5415,11 +5415,11 @@ Video Disk Recorder Revision History
   Plugins that provide an OSD need to adjust their cOsdProvider::CreateOsd()
   function to hand through the Level.
 - Fixed checking for ttDolbyLast in cDevice::SetCurrentAudioTrack() (thanks
-  to Marco Schlüßler).
+  to Marco Schlï¿½ï¿½ler).
 
 2007-10-14: Version 1.5.10
 
-- Implemented handling DVB subtitles (thanks to Marco Schlüßler, and also to
+- Implemented handling DVB subtitles (thanks to Marco Schlï¿½ï¿½ler, and also to
   Pekka Virtanen for writing the subtitle plugin, which helped in implementing
   subtitle handling in VDR).
 - The new remote control key "Subtitles" can be used to bring up the list
@@ -5427,7 +5427,7 @@ Video Disk Recorder Revision History
 - The new setup option "DVB/Subtitle languages" can be used to define the
   preferred languages for subtitles.
 - Fixed selecting the audio track when pressing Ok in the Audio menu (thanks
-  to Marco Schlüßler).
+  to Marco Schlï¿½ï¿½ler).
 - Implemented display of DVB subtitles in live viewing mode.
 - Implemented subtitle track selection.
 - Implemented bitmap color reduction and shrinking to display subtitles even
@@ -5466,9 +5466,9 @@ Video Disk Recorder Revision History
   Udo Richter).
 - Implemented sending all frames to devices that can handle them in fast forward
   trick speeds (thanks to Timo Eskola).
-- Updated the Hungarian language texts (thanks to Thomas Günther).
+- Updated the Hungarian language texts (thanks to Thomas Gï¿½nther).
 - Fixed description of DeviceSetAvailableTrack() and cReceiver(), and added an
-  example ~cMyReceiver() in PLUGINS.html (thanks to Marco Schlüßler).
+  example ~cMyReceiver() in PLUGINS.html (thanks to Marco Schlï¿½ï¿½ler).
 - Improved the description of where logging goes in the INSTALL file (thanks to
   Elias Luttinen).
 - Added a note about how to initiate internationalization support to the
@@ -5478,9 +5478,9 @@ Video Disk Recorder Revision History
   target in their Makefiles, as in
   i18n: $(I18Npot) $(I18Nmo)
   (based on a suggestion by Torsten Kunkel).
-- Removed a duplicate ',' from the ca_ES.po file (thanks to Thomas Günther).
-- Added the 'ß' character to the "allowed characters" in the de_DE.po file
-  (suggested by Thomas Günther).
+- Removed a duplicate ',' from the ca_ES.po file (thanks to Thomas Gï¿½nther).
+- Added the 'ï¿½' character to the "allowed characters" in the de_DE.po file
+  (suggested by Thomas Gï¿½nther).
 - Made the default copy ctor of cRecording private (thanks to Markus Hahn).
   Same for the assign operator.
 - Added cRecording::Undelete() (based on a patch from Markus Hahn).
@@ -5491,16 +5491,16 @@ Video Disk Recorder Revision History
 2007-11-04: Version 1.5.11
 
 - Fixed checking compatibility mode for old subtitles plugin (thanks to Marco
-  Schlüßler).
+  Schlï¿½ï¿½ler).
 - Updated the French OSD texts (thanks to Michael Nival).
 - Updated the Estonian OSD texts (thanks to Arthur Konovalov).
 - Updated the Italian OSD texts (thanks to Diego Pierotto).
 - The "Play" key now starts replay of the selected recording in the Recordings
-  menu (thanks to Ville Skyttä);
+  menu (thanks to Ville Skyttï¿½);
 - Improved shutdown handling (thanks to Udo Richter).
 - Housekeeping now waits for a while after a replay has ended (thanks to Udo Richter).
 - Added more special characters to the list of allowed characters when entering
-  strings (thanks to Thomas Günther).
+  strings (thanks to Thomas Gï¿½nther).
 - Added Ukrainian language texts (thanks to Yarema Aka Knedlyk).
 - Added a workaround for recovering from wrongfully interpreted "pre 1.3.19 PS1 packets".
 - Fixed a possible blocking in replay when subtitles are active.
@@ -5508,7 +5508,7 @@ Video Disk Recorder Revision History
 - Fixed handling CONFDIR (thanks to Rolf Ahrenberg).
 - Added some missing 'const' keywords (thanks to Sascha Volkenandt).
 - The 'Allowed' parameter in cMenuEditStrItem() is now NULL by default, which results
-  in using tr(FileNameChars) (suggested by Thomas Günther).
+  in using tr(FileNameChars) (suggested by Thomas Gï¿½nther).
 - Added a missing '.' to the date returned by DayDateTime() (thanks to Lauri Nurmi).
 - Improved the 'i18n' target in the Makefile to avoid unnecessary work (thanks to
   Stefan Huelswitt). The 'newplugin' and 'i18n-to-gettext.pl' scripts have been
@@ -5553,7 +5553,7 @@ Video Disk Recorder Revision History
   warnings for expressions like 'a || b && c', where GCC 4.3 wants to force the
   programmer to write 'a || (b && c)', while everybody knows that '&&' links
   stronger than '||' (reported by Tobias Grimm).
-- Updated the Hungarian language texts (thanks to István Füley).
+- Updated the Hungarian language texts (thanks to Istvï¿½n Fï¿½ley).
 - Fixed displaying weekday names in the Schedule menu if the system uses UTF-8
   (reported by Jiri Dobry).
 - The new plugin "pictures" implements a simple picture viewer.
@@ -5571,8 +5571,8 @@ Video Disk Recorder Revision History
 - Updated the Makefile of the skincurses plugin (thanks to Rolf Ahrenberg).
 - The new option --localedir can be used to set the locale directory at runtime
   (based on a patch from Stefan Huelswitt).
-- Fixed finding new transponders (thanks to Winfried Köhler).
-- Implemented handling of DVB-S2 (thanks to Marco Schlüßler and Reinhard Nissl
+- Fixed finding new transponders (thanks to Winfried Kï¿½hler).
+- Implemented handling of DVB-S2 (thanks to Marco Schlï¿½ï¿½ler and Reinhard Nissl
   for a patch that was used to implement this). VDR now requires the "multiproto"
   DVB driver, e.g. from http://jusst.de/hg/multiproto.
 - Removed switching to the next higher or lower channel if the current channel
@@ -5604,7 +5604,7 @@ Video Disk Recorder Revision History
   Nissl for reporting an invalid access when ending VDR, and to Deti Fliegl for
   a patch that was used to implement StopSectionHandler()).
 - Fixed setting the date in the channel display of the classic and sttng skins,
-  to avoid unnecessary OSD access (thanks to Marco Schlüßler).
+  to avoid unnecessary OSD access (thanks to Marco Schlï¿½ï¿½ler).
 - The free disk space is now also displayed in the title of the "Recordings"
   menu (suggested by Walter Koch).
 - Changed the message "Upcoming VPS recording!" to "Upcoming recording!" because
@@ -5636,7 +5636,7 @@ Video Disk Recorder Revision History
 - Added cStatus::TimerChange() to inform plugins about changes to the list of timers
   (based on a patch from Benedikt Elser).
 - Added new cStatus functions to the 'status' plugin.
-- Added missing #include <limits.h> to epg.c and menuitems.h (thanks to Ville Skyttä).
+- Added missing #include <limits.h> to epg.c and menuitems.h (thanks to Ville Skyttï¿½).
 - The new function cSkin::SetScrollbar() can be implemented by skins to display
   a scrollbar in every list menu. The 'classic' and 'sttng' skins have been
   changed accordingly, as well as the 'skincurses' plugin.
@@ -5651,7 +5651,7 @@ Video Disk Recorder Revision History
   return the right value in the early stage of channel switching).
 - Updated the Danish OSD texts (thanks to Mogens Elneff).
 - Updated the Dutch OSD texts (thanks to Carel Willemse).
-- Fixed various spelling errors and improved PLUGINS.html (thanks to Ville Skyttä).
+- Fixed various spelling errors and improved PLUGINS.html (thanks to Ville Skyttï¿½).
 - Updated the Italian OSD texts (thanks to Diego Pierotto).
 - Fixed the format in cRemote::Put() to use "%016llX" instead of "%016LX" (thanks
   to Ludwig Nussel for pointing this out).
@@ -5685,8 +5685,8 @@ Video Disk Recorder Revision History
 - Fixed a crash in cFreetypeFont::DrawText() if an unknown symbol is encountered
   (thanks to Tobias Grimm). Unknown symbols are replaced with a '?'.
 - Updated the Slovenian OSD texts (thanks to Matjaz Thaler).
-- Updated the Czech OSD texts (thanks to Vladimír Bárta and Jiri Dobry).
-- Updated the Turkish OSD texts (thanks to Oktay Yolgeçen).
+- Updated the Czech OSD texts (thanks to Vladimï¿½r Bï¿½rta and Jiri Dobry).
+- Updated the Turkish OSD texts (thanks to Oktay Yolgeï¿½en).
 - The 'plugins' target in the Makefile now returns an error exit code if one of the
   plugins failed to compile (suggested by Tobias Grimm).
 - Rendering the non-breaking space symbol as a blank (thanks to Tobias Grimm).
@@ -5769,7 +5769,7 @@ Video Disk Recorder Revision History
 - Updated the Italian OSD texts (thanks to Diego Pierotto).
 - Removed obsolete $(NCURSESLIB) from the Makefile.
 - Implemented handling the standard component descriptor for AC3 (stream=4), as it
-  will soon be used by the German ARD channels (thanks to Michael Pennewiß for
+  will soon be used by the German ARD channels (thanks to Michael Pennewiï¿½ for
   advance information about this change). The previously used "Premiere pseudo
   standard" (stream=2, type=5) still works, but has apparently been wrongfully used
   by broadcasters from the beginning.
@@ -5809,7 +5809,7 @@ Video Disk Recorder Revision History
 - Fixed a problem with calling isyslog() from within the SignalHandler() (thanks
   to Udo Richter).
 - Replaced the Finnish language code "smi" with "suo" (thanks to Rolf Ahrenberg).
-- Fixed wrong value for TableIdBAT in libsi/si.h (thanks to Winfried Köhler).
+- Fixed wrong value for TableIdBAT in libsi/si.h (thanks to Winfried Kï¿½hler).
 - Errors in config files no longer keep VDR from starting.
 - Removed unneeded include files <linux/dvb/dmx.h> and <time.h> from remux.h
   (reported by Tobias Grimm).
@@ -5828,7 +5828,7 @@ Video Disk Recorder Revision History
 - Fixed a problem with calling isyslog() from within the SignalHandler() (thanks
   to Udo Richter).
 - Replaced the Finnish language code "smi" with "suo" (thanks to Rolf Ahrenberg).
-- Fixed wrong value for TableIdBAT in libsi/si.h (thanks to Winfried Köhler).
+- Fixed wrong value for TableIdBAT in libsi/si.h (thanks to Winfried Kï¿½hler).
 - Removed unneeded include files <linux/dvb/dmx.h> and <time.h> from remux.h
   (reported by Tobias Grimm).
 
@@ -5855,7 +5855,7 @@ Video Disk Recorder Revision History
 - Fixed handling the 'pointer field' in generating and parsing PAT/PMT (thanks to
   Frank Schmirler).
 - Fixed handling modulation types for DVB-S transponders when processing the NIT.
-- Changed cDvbDevice::GrabImage() to use V4L2 (thanks to Marco Schlüßler).
+- Changed cDvbDevice::GrabImage() to use V4L2 (thanks to Marco Schlï¿½ï¿½ler).
 - Added a poll to cDvbDevice::PlayVideo() and cDvbDevice::PlayAudio() to avoid
   excessive CPU load (this is just a makeshift solution until the FF DVB cards
   can play TS directly).
@@ -5927,8 +5927,8 @@ Video Disk Recorder Revision History
 - Added some missing 'const' statements to cBitmap (thanks to Andreas Regel).
 - Fixed returning complete PES packets in cTsToPes::GetPes() (thanks to Reinhard
   Nissl).
-- Added a missing Detach() in cTransfer::Activate() (thanks to Marco Schlüßler).
-- Added clearing the TS buffers in cDevice::Detach() (thanks to Marco Schlüßler).
+- Added a missing Detach() in cTransfer::Activate() (thanks to Marco Schlï¿½ï¿½ler).
+- Added clearing the TS buffers in cDevice::Detach() (thanks to Marco Schlï¿½ï¿½ler).
 - Fixed incrementing the continuity counter in cPatPmtGenerator::GetPmt() (thanks
   to Johann Friedrichs).
 - Fixed removing deleted recordings in case there is a problem. Once a recording
@@ -6004,7 +6004,7 @@ Video Disk Recorder Revision History
   several payload units (thanks to Derek Kelly for reporting this and helping in
   testing).
 - Modified cFrameDetector::Analyze() to make it process whole frames at once, so
-  that file I/O overhead is minimized during recording (reported by Günter
+  that file I/O overhead is minimized during recording (reported by Gï¿½nter
   Niedermeier).
 - Added command line help for the '-i' option.
 - Fixed cDvbPlayer::NextFile() to handle files larger than 2GB (thanks to Jose
@@ -6126,7 +6126,7 @@ Video Disk Recorder Revision History
 - Fixed cOsdMenu::Display() in case the menu size has changed (thanks to
   Reinhard Nissl).
 - Added some missing 'const' keywords to avoid compilation errors with gcc 4.4
-  (thanks to Ville Skyttä and Ludwig Nussel).
+  (thanks to Ville Skyttï¿½ and Ludwig Nussel).
 - Modified cSVDRP::CmdGRAB() to avoid writing into const data (reported by
   Ludwig Nussel).
 - Fixed calculating menu colum widths in case the font has a size other than the
@@ -6209,7 +6209,7 @@ Video Disk Recorder Revision History
 - The 'sky' plugin is no longer part of the VDR source.
 - Improved SPU handling on devices with limited OSD capabilities (thanks to
   Matthieu Castet).
-- Several code modifications to avoid compiler warnings (thanks to Winfried Köhler).
+- Several code modifications to avoid compiler warnings (thanks to Winfried Kï¿½hler).
 - Added stream type 11172 AUDIO to cPatPmtParser::ParsePmt() (thanks to Johann
   Friedrichs).
 - Removed debug output of '-' from cTransfer::Receive().
@@ -6253,7 +6253,7 @@ Video Disk Recorder Revision History
   recording or generate its index without actually starting the entire VDR
   (based on a patch from Helmut Auer).
 - Improved the description of the transponder parameters in vdr.5 (thanks to
-  Winfried Köhler).
+  Winfried Kï¿½hler).
 - Avoiding setting the video stream type to 2 if the vpid is 0 (problem reported
   by Arthur Konovalov).
 - Implemented handling the "Content Descriptor" (based on a patch from Rolf
@@ -6293,7 +6293,7 @@ Video Disk Recorder Revision History
   cDvbSpuBitmap::getMinBpp() (thanks to Matthieu Castet and Johann Friedrichs).
 - The new setup option "Miscellaneous/Channels wrap" controls whether the current
   channel wraps around the beginning or end of the channel list when zapping (thanks
-  to Matti Lehtimäki).
+  to Matti Lehtimï¿½ki).
 - Fixed determining the frame duration on channels where the PTS deltas jitter by
   +/-1 around 1800.
 - The PCR pid in generated PMTs is now set to the channel's PCR pid again.
@@ -6379,7 +6379,7 @@ Video Disk Recorder Revision History
     channel.
   This obsoletes the PLUGINPARAM patch.
 - Updated the Lithuanian OSD texts (thanks to Valdemaras Pipiras).
-- cSafeFile::Close() now flushes the file (suggested by Stephan Austermühle).
+- cSafeFile::Close() now flushes the file (suggested by Stephan Austermï¿½hle).
 - The option "Setup/DVB/Use Dolby Digital" now only controls whether Dolby Digital
   tracks appear in the "Audio" menu. Dolby Digital is always recorded.
   This obsoletes the DOLBYINREC patch.
@@ -6443,7 +6443,7 @@ Video Disk Recorder Revision History
   driver, so that they can continue using an unmodified driver.
   Thanks to Derek Kelly for testing this.
 - Updated the Ukrainian OSD texts (thanks to Yarema Aka Knedlyk).
-- Fixed handling "none" color entries in XPM files (thanks to Thomas Günther).
+- Fixed handling "none" color entries in XPM files (thanks to Thomas Gï¿½nther).
 - Fixed a crash when creating a new channel if the channel list is empty (reported
   by Halim Sahin).
 - Updated the Czech OSD texts (thanks to Radek Stastny).
@@ -6489,11 +6489,11 @@ Video Disk Recorder Revision History
 - Changed the description of cDevice::GetSTC() to make it mandatory for devices
   that can replay.
 - Removed the check for positive STC values from cDvbSubtitleConverter::Action().
-- Added cString::operator=(const char *String) (suggested by Antti Seppälä).
-- Some spelling fixes (thanks to Ville Skyttä).
-- Passing package name and version to xgettext (thanks to Ville Skyttä).
-- Made 'dist' target dependent on up to date *.po (thanks to Ville Skyttä).
-- Added Language and fixed Language-Team header of *.po (thanks to Ville Skyttä).
+- Added cString::operator=(const char *String) (suggested by Antti Seppï¿½lï¿½).
+- Some spelling fixes (thanks to Ville Skyttï¿½).
+- Passing package name and version to xgettext (thanks to Ville Skyttï¿½).
+- Made 'dist' target dependent on up to date *.po (thanks to Ville Skyttï¿½).
+- Added Language and fixed Language-Team header of *.po (thanks to Ville Skyttï¿½).
 - Updated the Lithuanian OSD texts (thanks to Valdemaras Pipiras).
 - Fixed detecting frames on channels that broadcast with 50 or 60 fps.
   This avoids artifacts during fast forward/rewind when replaying recordings from such
@@ -6559,7 +6559,7 @@ Video Disk Recorder Revision History
 
 2011-04-17: Version 1.7.18
 
-- Changed -O2 to -O3 in Make.config.template (reported by Matti Lehtimäki).
+- Changed -O2 to -O3 in Make.config.template (reported by Matti Lehtimï¿½ki).
 - Added a missing 'default' case in cPixmapMemory::DrawEllipse().
 - Fixed some direct comparisons of double values.
 - Fixed detecting frames on channels that broadcast with separate "fields" instead
@@ -6572,13 +6572,13 @@ Video Disk Recorder Revision History
   is now used to properly scale subtitles.
 - Fixed cUnbufferedFile::Seek() in case it is compiled without USE_FADVISE (thanks
   to Juergen Lock).
-- Fixed the Language header of the Serbian translation file (thanks to Ville Skyttä).
+- Fixed the Language header of the Serbian translation file (thanks to Ville Skyttï¿½).
 - Added anti-aliasing when upscaling bitmaps, which improves the display of SD subtitles
   when replayed on an HD OSD (thanks to Reinhard Nissl for his help in debugging).
 - Renamed cBitmap::Scale() to Scaled(), because it doesn't modify the bitmap itself,
   but rather returns a scaled copy.
 - Fixed the description of cReceiver in PLUGINS.html, regarding detaching a receiver
-  from its device before deleting it (reported by Winfried Köhler). This change in
+  from its device before deleting it (reported by Winfried Kï¿½hler). This change in
   behavior was introduced in version 1.5.7.
 - Fixed scaling subtitles in case the OSD size is exactly the same as the display
   size of the subtitles.
@@ -6601,8 +6601,8 @@ Video Disk Recorder Revision History
 - Removed an obsolete local variable in dvbsdffosd.c (thanks to Paul Menzel).
 - Fixed a possible NULL pointer dereference in osddemo.c (reported by Paul Menzel).
 - Now using pkg-config to get fribidi, freetype and fontconfig cflags and libs (thanks
-  to Ville Skyttä).
-- The Makefile now also installs the include files (thanks to Ville Skyttä).
+  to Ville Skyttï¿½).
+- The Makefile now also installs the include files (thanks to Ville Skyttï¿½).
 - Added handling of "ANSI/SCTE 57" descriptors (thanks to Rolf Ahrenberg).
 - Avoiding an unnecessary call to Recordings.ResetResume() (thanks to Reinhard
   Nissl).
@@ -6621,7 +6621,7 @@ Video Disk Recorder Revision History
 - The primary device is now only avoided for recording if it is an old SD full
   featured card. This is done through the new function cDevice::AvoidRecording().
 - Subtitle PIDs are now also decrypted (thanks to Reinhard Nissl).
-- Fixed a possible race condition in cDiseqc::Execute() (reported by Marco Göbenich).
+- Fixed a possible race condition in cDiseqc::Execute() (reported by Marco Gï¿½benich).
   The return value of cDiseqcs::Get() is now const, so plugin authors may need to
   adjust their code if they use this function.
 - The new functions cDevice::SignalStrength() and cDevice::SignalQuality() can be
@@ -6646,7 +6646,7 @@ Video Disk Recorder Revision History
   and resumed, and the fps value could not be determined after resuming recording).
 - The initial channel is now stored by the channel ID in the setup.conf file, in
   order to avoid problems in case channels are reordered or deleted (reported by
-  Lars Bläser).
+  Lars Blï¿½ser).
 - Added support for "content identifier descriptor" and "default authority descriptor"
   to 'libsi' (thanks to Dave Pickles).
 
@@ -6691,7 +6691,7 @@ Video Disk Recorder Revision History
 - The cutter now sets the 'broken link' flag for MPEG2 TS recordings (thanks to
   Oliver Endriss).
 - Fixed language code entry for Portuguese.
-- The new command line options --filesize (suggested by Marco Göbenich) and --split
+- The new command line options --filesize (suggested by Marco Gï¿½benich) and --split
   can be used together with --edit to set the maximum video file size and turn on
   splitting edited files at the editing marks. These options must be given before
   --edit to have an effect.
@@ -6769,14 +6769,14 @@ Video Disk Recorder Revision History
   which DVB-S devices are connected to the same sat cable and are therefore "bonded".
   This obsoletes the LNBSHARE patch. Users of the LNBSHARE patch will need to newly
   set up their sat devices with the above options.
-- Fixed a crash when deleting a recording while cutting it (thanks to Ville Skyttä).
-- Fixed several spelling errors (thanks to Ville Skyttä).
+- Fixed a crash when deleting a recording while cutting it (thanks to Ville Skyttï¿½).
+- Fixed several spelling errors (thanks to Ville Skyttï¿½).
 - The new SVDRP command UPDR can be used to trigger an update of the list of
   recordings (thanks to Lars Hanisch).
-- Added generating a pkg-config file to the Makefile (thanks to Ville Skyttä).
-- Removed the '.pl' suffix from all scripts (thanks to Ville Skyttä).
+- Added generating a pkg-config file to the Makefile (thanks to Ville Skyttï¿½).
+- Removed the '.pl' suffix from all scripts (thanks to Ville Skyttï¿½).
 - Changed the default location for the LIRC socket to /var/run/lirc/lircd (thanks
-  to Ville Skyttä).
+  to Ville Skyttï¿½).
 - Added file name and line number to LOG_ERROR_STR() (thanks to Rolf Ahrenberg).
 - Replaced all calls to sleep() with cCondWait::SleepMs() (thanks to Rolf Ahrenberg).
 - Fixed a crash with malformed SI data (patch from vdr-portal).
@@ -6790,17 +6790,17 @@ Video Disk Recorder Revision History
 - Fixed a memory leak in cRecordings::ScanVideoDir() in case there are too many
   link levels (reported by Sundararaj Reel).
 - Removed redundant memset() in the ctor of cSatCableNumbers (triggered by
-  Ville Skyttä pointing out that the argument sequence in the call was wrong).
-- Removed a redundant NULL check in cDvbSpuDecoder::setTime() (thanks to Ville Skyttä).
+  Ville Skyttï¿½ pointing out that the argument sequence in the call was wrong).
+- Removed a redundant NULL check in cDvbSpuDecoder::setTime() (thanks to Ville Skyttï¿½).
 - Added HasSnr to the DEBUG_SIGNALQUALITY output in cDvbTuner::GetSignalQuality()
-  (triggered by Ville Skyttä pointing out that the variable HasSnr was unused).
+  (triggered by Ville Skyttï¿½ pointing out that the variable HasSnr was unused).
 - Updated the Finnish OSD texts (thanks to Rolf Ahrenberg).
 - Added support for HbbTV to libsi (thanks to Christoph Haubrich).
 - Added support for devices with more than one delivery system per frontend.
   This requires a DVB driver with version 5.5 or higher that can handle the
   DTV_ENUM_DELSYS call. With older drivers it will fall back to one delivery
   system per frontend.
-- Updated the Hungarian language texts (thanks to István Füley).
+- Updated the Hungarian language texts (thanks to Istvï¿½n Fï¿½ley).
 - cDvbTuner::ExecuteDiseqc() now makes sure only one tuner sends SCR commands
   at any given time (reported by Frank Neumann).
 - cEvent::FixEpgBugs() now replaces any newline characters in stream component
@@ -6813,7 +6813,7 @@ Video Disk Recorder Revision History
 - Added support for handling DVB-T2 transponders.  This requires a DVB driver
   with version 5.3 or higher that can handle the DTV_DVBT2_PLP_ID call (thanks
   to Rolf Ahrenberg).
-- Fixed cConfig::Load() for g++ version 4.7.0 (thanks to Ville Skyttä).
+- Fixed cConfig::Load() for g++ version 4.7.0 (thanks to Ville Skyttï¿½).
 - Fixed a possible memory corruption in cTsToPes::GetPes() in case of broken
   TS packets, e.g. when switching channels.
 - Fixed the SVDRP command CLRE for a single channel in case there are events
@@ -7015,7 +7015,7 @@ Video Disk Recorder Revision History
 - Updated the Finnish OSD texts (thanks to Rolf Ahrenberg).
 - Changed the Green button in the "Edit timer" menu from "Once" to "Single"
   (suggested by Rolf Ahrenberg).
-- Fixed some typos in HISTORY and CONTRIBUTORS (thanks to Ville Skyttä).
+- Fixed some typos in HISTORY and CONTRIBUTORS (thanks to Ville Skyttï¿½).
 - The channel name column in the "What's on now/next" menu now adjusts its width
   to display the full short name of each channel (suggested by Dominic Evans).
 - Dropped the meanwhile obsolete script 'i18n-to-gettext'.
@@ -7163,12 +7163,12 @@ Video Disk Recorder Revision History
 - Fixed the call to ChannelString() in cSkinLCARSDisplayChannel::SetChannel() (thanks
   to Rolf Ahrenberg).
 - Removed DeleteEvent() from the EPG handler interface (turned out not to be useful)
-  and replaced it with HandledExternally() (thanks to Jörg Wendel).
+  and replaced it with HandledExternally() (thanks to Jï¿½rg Wendel).
 - Added SetComponents() to the EPG handler interface (thanks to Dirk Heiser).
 - Updated the Italian OSD texts (thanks to Diego Pierotto).
 - Changed the button colors in the LCARS skin to better fit with the rest of the theme.
 - Removed the gap from the main menu buttons in the LCARS skin.
-- Fixed some copy&paste errors in PLUGINS.html (thanks to Winfried Köhler).
+- Fixed some copy&paste errors in PLUGINS.html (thanks to Winfried Kï¿½hler).
 - The LCARS skin's main menu now only displays timers that are actually activated.
 - Within the "Recordings" menu, pressing the '0' key now toggles sorting between
   "by time" and "by name". The selected sort mode is stored separately for each
@@ -7179,7 +7179,7 @@ Video Disk Recorder Revision History
   directory was "by name" and all subdirectories were sorted "by time". Now the
   default sort order for all directories is "by name", so if you have an existing
   folder that shall be sorted "by time", press the '0' key once to achieve this.
-- Fixed several spelling errors (thanks to Ville Skyttä).
+- Fixed several spelling errors (thanks to Ville Skyttï¿½).
 - Fixed handling recording with more than two bonded devices.
 - Fixed the type of MBperMinute in cVideoDiskUsage::HasChanged() (thanks to Andreas
   Mair).
@@ -7206,7 +7206,7 @@ Video Disk Recorder Revision History
   dot ('.') are now ignored and will be implicitly removed if the directory contains
   no other files. This fixes the leftover ".sort" files that were introduced in
   version 1.7.29.
-- Added IsUpdate() to the EPG handler interface (thanks to Jörg Wendel).
+- Added IsUpdate() to the EPG handler interface (thanks to Jï¿½rg Wendel).
 - Fixed detecting transfer mode on full featured DVB cards (thanks to Stefan Huelswitt
   for reporting a problem with updating CA descriptors in such cases).
 - Fixed a race condition when zapping in transfer mode (reported by Reinhard Nissl).
@@ -7245,7 +7245,7 @@ Video Disk Recorder Revision History
   reports this error and removes the empty index file.
 - The setup parameter "Recording/Instant rec. time (min)" can now be set to '0',
   which means to record only the currently running event (based on a patch from Matti
-  Lehtimäki).
+  Lehtimï¿½ki).
 - Decreased the ring buffer put/get trigger sizes from 1/3 to 1/10.
 - The script given to VDR with the '-r' option is now also called whenever a
   recording is deleted (thanks to Alexander Wenzel).
@@ -7264,8 +7264,8 @@ Video Disk Recorder Revision History
   20MB to better handle HD recordings (suggested by Torsten Lang).
 - Moved cleaning up the EPG data and writing the epg.data file into a separate
   thread to avoid sluggish response to user input on slow systems (based on a patch from
-  Sören Moch).
-- Fixed sorting folders before recordings in case of UTF-8 (thanks to Sören Moch).
+  Sï¿½ren Moch).
+- Fixed sorting folders before recordings in case of UTF-8 (thanks to Sï¿½ren Moch).
 - Reactivated stripping control characters from EPG texts and adapted it to UTF-8.
 - Added missing decrementing of 'len' in libsi/si.c's String::decodeText() functions.
 - When checking whether a video directory is empty, file names that start with a
@@ -7295,7 +7295,7 @@ Video Disk Recorder Revision History
 - Fixed some compiler warnings under gcc version 4.7.1.
 - Fixed setting the video format in the dvbhdffdevice (thanks to Torsten Lang).
 - Fixed 'make install' to not overwrite existing configuration files (thanks to Peter
-  Münster).
+  Mï¿½nster).
 - Added including the Make.global and Make.config files to the dvbdhffdevice's
   libhdffcmd/Makefile.
 - Added options to build a 32-bit version of VDR on a 64-bit machine to
@@ -7351,23 +7351,23 @@ Video Disk Recorder Revision History
 - Fixed learning remote control keys with the LCARS skin.
 - Updated the Macedonian OSD texts (thanks to Dimitar Petrovski).
 - Fixed getting only non-video packets in cCuttingThread::GetPendingPackets() (reported
-  by Sören Moch).
-- Changed all occurrences of MPEG4 to H264 (pointed out by Sören Moch).
+  by Sï¿½ren Moch).
+- Changed all occurrences of MPEG4 to H264 (pointed out by Sï¿½ren Moch).
 - Fixed getting the number of editing sequences in case the last sequence has no actual
   end mark.
 - The cutter now only increments the TS continuity counter for packets that have a
-  payload (pointed out by Sören Moch).
+  payload (pointed out by Sï¿½ren Moch).
 - Fixed adjusting the DTS values in the cutter, to compensate for dropped B-frames
-  (pointed out by Sören Moch).
+  (pointed out by Sï¿½ren Moch).
 - Fixed a typo in skins.h (thanks to Lars Hanisch).
 - Simplified calculating the PTS offset in cPtsFixer::Fix() and fixed the overflow
-  handling of PCR values (thanks to Sören Moch).
+  handling of PCR values (thanks to Sï¿½ren Moch).
 - Fixed calling iconv_close() only with a valid iconv_t value (thanks to Juergen Lock).
 - Fixed faulty opening of the Recordings menu when pressing the Play key during normal
   live viewing mode in case there is a "last viewed" recording.
 - Fixed some #include statements in plugins to use <vdr/...> instead of "vdr/..."
   (thanks to Lars Hanisch).
-- Fixed some spellings in osd.h and svdrp.c (thanks to Ville Skyttä).
+- Fixed some spellings in osd.h and svdrp.c (thanks to Ville Skyttï¿½).
 - Fixed handling lowercase polarization characters in channel definitions if no DiSEqC
   is used (reported by Mike Hay, actual bug pointed out by Stefan Huelswitt).
 - Synchronizing system time to the transponder time is now done using adjtime() in order
@@ -7534,13 +7534,13 @@ Video Disk Recorder Revision History
 - The SVDRP command NEWT no longer checks whether a timer with the given data already
   exists (suggested by Malte Forkel).
 - Implemented scaling of SPU bitmaps (thanks to Johann Friedrichs).
-- Improved cutting MPEG-2 video (thanks to Sören Moch).
+- Improved cutting MPEG-2 video (thanks to Sï¿½ren Moch).
 - Reduced the number of retries in cTransfer::Receive() to avoid blocking recordings
   in case the primary device can't handle the current live signal.
 
 2013-02-08: Version 1.7.37
 
-- Now also using FindHeader() in cMpeg2Fixer::AdjTref() (pointed out by Sören Moch).
+- Now also using FindHeader() in cMpeg2Fixer::AdjTref() (pointed out by Sï¿½ren Moch).
 - Added missing template for DVBDIR to Make.config.template (reported by Derek Kelly).
 - The LCARS menu now also works if the OSD has only 1bpp (two colors).
 - Fixed possible garbage in the remaining time of the LCARS replay display in case the
@@ -7595,7 +7595,7 @@ Video Disk Recorder Revision History
 - Updated the Estonian OSD texts (thanks to Arthur Konovalov).
 - Updated the Romanian OSD texts (thanks to Lucian Muresan).
 - Updated the French OSD texts (thanks to Marc Perrudin, Bernard Jaulin and Peter
-  Münster).
+  Mï¿½nster).
 - Updated the Macedonian OSD texts (thanks to Dimitar Petrovski).
 - Fixed moving editing marks, so that they don't get overwritten with old values
   through an update of the marks file.
@@ -7625,13 +7625,13 @@ Video Disk Recorder Revision History
   information in two places).
 - Fixed the return value of cOsdProvider::StoreImage() in case there is no OSD provider.
 - Fixed a crash in cMenuEditChanItem::Set() when entering a channel number that
-  doesn't exist (reported by Mikael Hübsch).
+  doesn't exist (reported by Mikael Hï¿½bsch).
 - Fixed displaying pending timers in "alert" mode in the LCARS skin.
 - Added missing $(LDFLAGS) to the Makefile of the dvbhddevice plugin (thanks to Ville
-  Skyttä).
-- Fixed some spellings in PLUGINS.html and Doxyfile (thanks to Ville Skyttä).
+  Skyttï¿½).
+- Fixed some spellings in PLUGINS.html and Doxyfile (thanks to Ville Skyttï¿½).
 - Added '-p' to the cp command in the install-conf target of the Makefile (thanks to
-  Ville Skyttä).
+  Ville Skyttï¿½).
 - Added missing 'const' to cDevice::HasProgramme() and cDevice::HasLock().
 - Fixed determining the priority of the primary device in case it is neither replaying
   nor receiving a live channel (thanks to Matthias Senzel for reporting a problem with
@@ -7640,7 +7640,7 @@ Video Disk Recorder Revision History
   There was only a rather small number of these, and I would probably always forget to
   put them in place when writing future comments, so I decided to drop them entirely.
 - Added Doxyfile.filter to have special characters escaped that would otherwise be
-  dropped by Doxygen (reported by Ville Skyttä).
+  dropped by Doxygen (reported by Ville Skyttï¿½).
 - Using 'cat' instead of 'cp' to copy the Doxyfile to avoid problems in case Doxyfile
   is write protected.
 - Updated the Doxyfile with a newer version of Doxygen.
@@ -7655,9 +7655,9 @@ Video Disk Recorder Revision History
 - Updated the Polish OSD texts (thanks to Marek Nazarko).
 - Modified handling user inactivity in the shutdown handler to avoid a problem in case
   the system time is changed after VDR has been started (thanks to Udo Richter, reported
-  by Sören Moch).
+  by Sï¿½ren Moch).
 - Updated the Czech OSD texts (thanks to Ales Jurik).
-- Changed the template for PLGCFG to $(CONFDIR)/plugins.mk (thanks to Ville Skyttä).
+- Changed the template for PLGCFG to $(CONFDIR)/plugins.mk (thanks to Ville Skyttï¿½).
 - Updated the Swedish OSD texts (thanks to Richard Lithvall).
 - Now clearing device bondings for devices that don't provide DVB-S in the Setup/LNB
   menu (reported by Juergen Lock).
@@ -7682,7 +7682,7 @@ Video Disk Recorder Revision History
 - Now calling DeviceClear() in cTransfer::Receive() if the output device blocks, instead
   of not retrying for 10 seconds (reported by Andreas Mair, with help from Oliver Endriss).
 - Updated the Spanish OSD texts (thanks to Luca Olivetti).
-- Updated the Hungarian language texts (thanks to István Füley).
+- Updated the Hungarian language texts (thanks to Istvï¿½n Fï¿½ley).
 - Changed the calls to Skins.QueueMessage() in vdr.c that are related to reporting the
   status of the editing process back to Skins.Message() in order to have them appear
   immediately.
@@ -7714,7 +7714,7 @@ Video Disk Recorder Revision History
 - Updated the Estonian OSD texts (thanks to Arthur Konovalov).
 - Updated the Italian OSD texts (thanks to Diego Pierotto).
 - Updated the French OSD texts (thanks to Dominique Plu).
-- Updated the Finnish OSD texts (thanks to Matti Lehtimäki).
+- Updated the Finnish OSD texts (thanks to Matti Lehtimï¿½ki).
 - Updated the Arabic OSD texts (thanks to Osama Alrawab).
 - Updated the Romanian OSD texts (thanks to Lucian Muresan).
 - Renamed the "plp id" to a more general "stream id" and added support for DVB-S2
@@ -7732,7 +7732,7 @@ Video Disk Recorder Revision History
 
 2013-03-16: Version 1.7.41
 
-- Updated the Hungarian OSD texts (thanks to István Füley).
+- Updated the Hungarian OSD texts (thanks to Istvï¿½n Fï¿½ley).
 - Updated the Russian OSD texts (thanks to Oleg Roitburd).
 - Updated the Polish OSD texts (thanks to Marek Nazarko).
 - Fixed using PATH_MAX and NAME_MAX (+/-1 because the first one includes the
@@ -7753,7 +7753,7 @@ Video Disk Recorder Revision History
 - When switching to a less privileged user id, VDR now sets the environment variables
   HOME, USER, LOGNAME and SHELL accordingly (thanks to Manuel Reimer).
 - Updated the help and man page entry about the location of the epg.data file (thanks
-  to Ville Skyttä).
+  to Ville Skyttï¿½).
 - Fixed creating a new VPS timer with the SVDRP command NEWT (thanks to Johann
   Friedrichs).
 
@@ -7803,7 +7803,7 @@ Video Disk Recorder Revision History
   are folders and plain recordings with names that differ only in non-alphanumeric
   characters" in version 1.7.36).
 - Fixed displaying the frame number when setting an editing mark (thanks to Thomas
-  Günther).
+  Gï¿½nther).
 - Fixed no longer generating any editing marks if the edited recording results in just
   one single sequence (reported by Halim Sahin).
 - Fixed an error message when parsing SCR values in diseqc.conf.
@@ -7835,7 +7835,7 @@ Video Disk Recorder Revision History
   are folders and plain recordings with names that differ only in non-alphanumeric
   characters" in version 1.7.36).
 - Fixed displaying the frame number when setting an editing mark (thanks to Thomas
-  Günther).
+  Gï¿½nther).
 - Fixed no longer generating any editing marks if the edited recording results in just
   one single sequence (reported by Halim Sahin).
 - Fixed an error message when parsing SCR values in diseqc.conf.
@@ -7874,7 +7874,7 @@ Video Disk Recorder Revision History
   Priority is less than 1.
 - Fixed handling LIRC events in case repeated events are lost.
 - Fixed a possible crash when shutting down VDR while subtitles are being displayed
-  (reported by Ville Skyttä).
+  (reported by Ville Skyttï¿½).
 - cDevice::IsPrimaryDevice() now also checks whether the primary device actually has
   a decoder and returns false otherwise. This should improve device allocation on
   systems that are only used as a receiver and don't actually display anything.
@@ -7882,10 +7882,10 @@ Video Disk Recorder Revision History
   in transfer mode.
 - All bonded devices (except for the master) now turn off their LNB power completely
   to avoid problems when receiving vertically polarized transponders (suggested by
-  Manfred Völkel and Oliver Endriss).
+  Manfred Vï¿½lkel and Oliver Endriss).
 - Reverted the change from version 1.5.7 that made all logging go to LOG_ERR (thanks
   to Christopher Reimer).
-- Added Begin/EndSegmentTransfer() to the EPG handler interface (thanks to Jörg Wendel).
+- Added Begin/EndSegmentTransfer() to the EPG handler interface (thanks to Jï¿½rg Wendel).
 - The code for distributing recordings over several video directories is now
   deprecated and disabled by default.
   You can re-enable this feature by removing the comment sign ('//') from the beginning
@@ -7908,7 +7908,7 @@ Video Disk Recorder Revision History
   Priority is less than 1.
 - Fixed handling LIRC events in case repeated events are lost.
 - Fixed a possible crash when shutting down VDR while subtitles are being displayed
-  (reported by Ville Skyttä).
+  (reported by Ville Skyttï¿½).
 - cDevice::IsPrimaryDevice() now also checks whether the primary device actually has
   a decoder and returns false otherwise. This should improve device allocation on
   systems that are only used as a receiver and don't actually display anything.
@@ -7916,7 +7916,7 @@ Video Disk Recorder Revision History
   in transfer mode.
 - All bonded devices (except for the master) now turn off their LNB power completely
   to avoid problems when receiving vertically polarized transponders (suggested by
-  Manfred Völkel and Oliver Endriss).
+  Manfred Vï¿½lkel and Oliver Endriss).
 - Fixed cleaning up old EPG events in case no epg data file is given (reported by
   Dave Pickles).
 
@@ -8060,18 +8060,18 @@ Video Disk Recorder Revision History
 - Removed '_' from the FileNameChars and CharMap translations in uk_UA.po.
 - Updated the Italian OSD texts (thanks to Diego Pierotto).
 - Fixed a missing initialization in the c'tor of cSkinLCARSDisplayChannel (thanks to
-  Marko Mäkelä).
+  Marko Mï¿½kelï¿½).
 - Simplified some conditional expressions in skinlcars.c and skinsttng.c (suggested
-  by Marko Mäkelä).
+  by Marko Mï¿½kelï¿½).
 - Fixed uninitialized item area coordinates in cSkinLCARSDisplayMenu (reported by
-  Marko Mäkelä).
+  Marko Mï¿½kelï¿½).
 - Fixed a possible crash if the recordings list is updated externally while the
   Recordings menu is open (reported by Lars Hanisch).
 - Added a missing closing ')' in the help and man page entry of the --vfat option
   (reported by Lars Hanisch).
 - Fixed setting the name of the video directory to avoid a crash when using --genindex,
   and also to use the correct directory with --edit (the latter reported by Marko
-  Mäkelä).
+  Mï¿½kelï¿½).
 - The Recordings menu can now be called with a cRecordingFilter, which allows the
   caller to have it display only a certain subset of the recordings (thanks to Lars
   Hanisch).
@@ -8086,9 +8086,9 @@ Video Disk Recorder Revision History
   of it or not.
 - Added a note to ePlayMode in device.h that VDR itself always uses pmAudioVideo when
   replaying a recording (suggested by Thomas Reufer).
-- Fixed some spellings in positioner.h and Doxyfile (thanks to Ville Skyttä).
+- Fixed some spellings in positioner.h and Doxyfile (thanks to Ville Skyttï¿½).
 - Changed '%a' to the POSIX compliant '%m' in all scanf() calls (thanks to Ville
-  Skyttä).
+  Skyttï¿½).
 - The new function cCamSlot::Decrypt() can be used by derived classes to implement a
   CAM slot that can be freely assigned to any device, without being directly inserted
   into the full TS data stream in hardware. A derived class that implements Decrypt()
@@ -8101,11 +8101,11 @@ Video Disk Recorder Revision History
 - cDvbDevice::GetTSPacket() now calls CamSlot()->Decrypt() in order to allow CAM slots
   that can be freely assigned to any device access to the TS data stream.
 - Added a check to avoid a possible NULL pointer dereference in cCiSession::SendData()
-  (reported by Ville Skyttä).
-- Deleted a superfluous assignment in cPipe::Open() (reported by Ville Skyttä).
+  (reported by Ville Skyttï¿½).
+- Deleted a superfluous assignment in cPipe::Open() (reported by Ville Skyttï¿½).
 - The script given to VDR with the '-r' option is now also called after the recording
   process has actually started (thanks to Christian Kaiser).
-- Avoiding unnecessary pkg-config warnings in plugin Makefiles (thanks to Ville Skyttä).
+- Avoiding unnecessary pkg-config warnings in plugin Makefiles (thanks to Ville Skyttï¿½).
   Plugin authors may want to apply the following change to their Makefile:
   -PKGCFG = $(if $(VDRDIR),$(shell pkg-config --variable=$(1) $(VDRDIR)/vdr.pc),$(shell pkg-config --variable=$(1) vdr || pkg-config --variable=$(1) ../../../vdr.pc))
   +PKGCFG = $(if $(VDRDIR),$(shell pkg-config --variable=$(1) $(VDRDIR)/vdr.pc),$(shell PKG_CONFIG_PATH="$$PKG_CONFIG_PATH:../../.." pkg-config --variable=$(1) vdr))
@@ -8121,16 +8121,16 @@ Video Disk Recorder Revision History
 - The LIRC remote control now connects to the socket even if it doesn't yet exist when
   VDR is started (thanks to Lars Hanisch).
 - Fixed a missing initialization in the c'tor of cSkinLCARSDisplayChannel (thanks to
-  Marko Mäkelä).
+  Marko Mï¿½kelï¿½).
 - Fixed uninitialized item area coordinates in cSkinLCARSDisplayMenu (reported by
-  Marko Mäkelä).
+  Marko Mï¿½kelï¿½).
 - Fixed a possible crash if the recordings list is updated externally while the
   Recordings menu is open (reported by Lars Hanisch).
 - Added a missing closing ')' in the help and man page entry of the --vfat option
   (reported by Lars Hanisch).
 - Fixed setting the name of the video directory to avoid a crash when using --genindex,
   and also to use the correct directory with --edit (the latter reported by Marko
-  Mäkelä).
+  Mï¿½kelï¿½).
 
 2014-01-26: Version 2.1.4
 
@@ -8206,7 +8206,7 @@ Video Disk Recorder Revision History
 2014-03-16: Version 2.1.6
 
 - Revoked "Fixed some compiler warnings with Clang 3.4.1" from ci.c, because this
-  did not compile with older versions of gcc (thanks to Sören Moch).
+  did not compile with older versions of gcc (thanks to Sï¿½ren Moch).
 - Fixed keeping the current position in the Recordings menu if a recording was
   deleted in a sub folder.
 - Fixed handling transfer mode on full featured DVB cards for encrypted channels
@@ -8423,7 +8423,7 @@ Video Disk Recorder Revision History
 - Updated the Finnish OSD texts (thanks to Rolf Ahrenberg).
 - Updated the Romanian OSD texts (thanks to Lucian Muresan).
 - Added functionality based on the "jumpplay" patch from Torsten Kunkel and Thomas
-  Günther:
+  Gï¿½nther:
   + The new option "Setup/Replay/Pause replay when jumping to a mark" can be used to
     turn off pausing replay when jumping to an editing mark with the '9' key.
   + The new option "Setup/Replay/Skip edited parts" can be used to automatically skip
@@ -8436,7 +8436,7 @@ Video Disk Recorder Revision History
     in recordings that have actually been cut, as well as recordings that have not
     been cut, in case "Skip edited parts" is enabled.
 - Added support for "Satellite Channel Routing" (SCR) according to EN50607, also
-  known as "JESS" (thanks to Manfred Völkel and Frank Neumann).
+  known as "JESS" (thanks to Manfred Vï¿½lkel and Frank Neumann).
 - The keys '1' and '3' can now be used in replay mode to position an editing mark
   in "binary" mode (based on a patch from Rolf Ahrenberg, with modifications by Helmut
   Auer). See MANUAL, section "Editing a Recording".
@@ -8479,7 +8479,7 @@ Video Disk Recorder Revision History
 - Updated the Estonian OSD texts (thanks to Arthur Konovalov).
 - Updated the Ukrainian OSD texts (thanks to Yarema Aka Knedlyk).
 - Updated the Romanian OSD texts (thanks to Lucian Muresan).
-- Updated the Hungarian OSD texts (thanks to István Füley).
+- Updated the Hungarian OSD texts (thanks to Istvï¿½n Fï¿½ley).
 - Fixed switching channels in the Schedule menu after going through various Now and
   Schedule menus for different channels (reported by Matthias Senzel).
 - Fixed setting the Blue button in the Schedule/Now/Next menus, so that it only shows
@@ -8493,7 +8493,7 @@ Video Disk Recorder Revision History
   "Managing folders" for details.
 - Updated the Italian OSD texts (thanks to Nino Gerbino).
 - The "Select folder" menu now adds the folder names of all existing recordings to
-  any names that have been predefined in "folders.conf" (suggested by Sören Moch).
+  any names that have been predefined in "folders.conf" (suggested by Sï¿½ren Moch).
 - Updated the Italian OSD texts (thanks to Diego Pierotto).
 - Fixed the German translations of "latitude" and "longitude" (they were swapped).
 - Modified runvdr.template to improve compatibility with the "bash" and "dash" shells
@@ -8533,7 +8533,7 @@ Video Disk Recorder Revision History
 - Increased the width of the left text column in the Setup menus to avoid cutting
   off German texts.
 - Added an empty target to the Makefile to make sure the sub-make for libsi is always
-  called (thanks to Sören Moch).
+  called (thanks to Sï¿½ren Moch).
 - Updated the Italian OSD texts (thanks to Diego Pierotto and Nino Gerbino).
 - Updated the Lithuanian OSD texts (thanks to Valdemaras Pipiras).
 - The new options "Setup/Replay/Skip distance with Green/Yellow keys" and
@@ -8565,7 +8565,7 @@ Video Disk Recorder Revision History
   hidden pixmap, because it avoids unnecessary refreshes of the OSD.
 - Added a missing initialization of "panning" to the constructor of cPixmapMemory.
 - Updated the Dutch OSD texts (thanks to Erik Oomen).
-- Updated the French OSD texts (thanks to Régis Bossut).
+- Updated the French OSD texts (thanks to Rï¿½gis Bossut).
 - Fixed the German translation of "Zap timeout" (thanks to Albert Danis).
 
 2015-02-19: Version 2.2.0
@@ -8576,8 +8576,8 @@ Video Disk Recorder Revision History
 - Updated the Estonian OSD texts (thanks to Arthur Konovalov).
 - Updated the Italian OSD texts (thanks to Diego Pierotto and Nino Gerbino).
 - Updated the Finnish OSD texts (thanks to Rolf Ahrenberg).
-- Updated the Swedish OSD texts (thanks to Magnus Sirwiö).
-- Updated the Hungarian OSD texts (thanks to István Füley and Albert Danis).
+- Updated the Swedish OSD texts (thanks to Magnus Sirwiï¿½).
+- Updated the Hungarian OSD texts (thanks to Istvï¿½n Fï¿½ley and Albert Danis).
 - Modified the German translations of the OSD texts regarding "adaptive skipping".
 - Fixed pausing replay at the last editing mark (reported by Stefan Herdler).
 - Updated the Polish OSD texts (thanks to Tomasz Maciej Nowak).
@@ -8590,7 +8590,7 @@ Video Disk Recorder Revision History
 - Updated the Slovak OSD texts (thanks to Milan Hrala).
 - Updated sources.conf to reflect the fact that Thor 5/6 and Intelsat 10-02 are
   actually in two separate positions.
-- Updated the French OSD texts (thanks to Régis Bossut).
+- Updated the French OSD texts (thanks to Rï¿½gis Bossut).
 - Updated the Spanish OSD texts (thanks to Gabriel Bonich).
 - Fixed leading/trailing/multiple blanks in the translation files.
 - Bumped all version numbers to 2.2.0.

@@ -113,7 +113,7 @@ Axel Gruber <axel@agm.de>
 Arnold Niessen <niessen@iae.nl> <arnold.niessen@philips.com>
  for translating OSD texts to the Dutch language
 
-Jürgen Sauer <jojo@automatix.de>
+Jï¿½rgen Sauer <jojo@automatix.de>
  for implementing the -t option to set the controlling terminal
 
 Benjamin Reichardt <reichard@math.uni-goettingen.de>
@@ -127,7 +127,7 @@ Henning Holtschneider <hh@holtschneider.com>
 Paulo Lopes <pmml@netvita.pt>
  for translating OSD texts to the Portuguese language
 
-Markus Lang <pretender@gaze.de> and Ulrich Röder <dynamite@efr-net.de>
+Markus Lang <pretender@gaze.de> and Ulrich Rï¿½der <dynamite@efr-net.de>
  for making DiSEqC support configurable
 
 Markus Lang <pretender@gaze.de>
@@ -139,7 +139,7 @@ Jean-Claude Repetto <jc@repetto.org>
 Andre Valentin <av2000@topmail.de>
  for increasing the key name buffer size for LIRC
 
-Jørgen Tvedt <pjtvedt@online.no>
+Jï¿½rgen Tvedt <pjtvedt@online.no>
  for translating OSD texts to the Norwegian language
 
 Stefan Huelswitt <s.huelswitt@gmx.de>
@@ -234,11 +234,11 @@ Stefan Huelswitt <s.huelswitt@gmx.de>
  definitions if no DiSEqC is used
  for fixing a bug in the Makefile when installing plugins with LCLBLD=1
 
-Ulrich Röder <roeder@efr-net.de>
+Ulrich Rï¿½der <roeder@efr-net.de>
  for pointing out that there are channels that have a symbol rate higher than 27500
  for his support in keeping the Premiere World channels up to date in 'channels.conf'
 
-Mel Schächner <schaechner@yahoo.com>
+Mel Schï¿½chner <schaechner@yahoo.com>
  for his support in keeping the Premiere World channels up to date in 'channels.conf'
 
 Andreas Schultz <aschultz@warp10.net>
@@ -407,7 +407,7 @@ Michael Paar <mpaar@uumail.de>
 Hannu Savolainen <hannu@opensound.com>
  for translating OSD texts to the Finnish language
 
-Jürgen Schmidt <ju@ct.heise.de>
+Jï¿½rgen Schmidt <ju@ct.heise.de>
  for fixing a problem with 'in_addr_t' on systems with glibc < 2.2
  for suggesting to optionally allow logging to LOG_LOCALn (n=0..7)
 
@@ -437,7 +437,7 @@ Adrian Stabiszewski <as@nitegate.de>
 Bernd Schweikert <bernd.schweikert@dit-gmbh.de>
  for adding 'Ca' code 201 for 'Cryptoworks, GOD-DIGITAL' to 'ca.conf'
 
-Mirko Günther <mi.guenther@ib-helms.de>
+Mirko Gï¿½nther <mi.guenther@ib-helms.de>
  for suggesting the -m command line option
  for suggesting the SVDRP command VOLU
  for reporting a bug in keeping track of the current channel number when moving
@@ -463,7 +463,7 @@ Ruben Nunez Francisco <ruben.nunez@tang-it.com>
  for implementing FreeDiskSpaceMB() without external 'df' command
  for translating OSD texts to the Spanish language
 
-Mirko Dölle <mdoelle@linux-user.de>
+Mirko Dï¿½lle <mdoelle@linux-user.de>
  for reporting a bug when a timer records over midnight of a day that had a
  change in Daylight Saving Time
  for suggesting to avoid the external 'find' command to scan the video directory
@@ -529,7 +529,7 @@ Ulrich Petri <ulope@gmx.de>
 Oliver Lorei <oliverlorei@cityweb.de>
  for his support in keeping the Premiere World channels up to date in 'channels.conf.cable'
 
-Andreas Böttger <fboettger@t-online.de>
+Andreas Bï¿½ttger <fboettger@t-online.de>
  for reporting a bug in skipping forward in time shift mode near the end of the recording
  for fixing setting system time to avoid time jumps in case of faulty data
  for reporting a bug in the "Day" field of the "Edit timer" menu when pressing
@@ -575,11 +575,11 @@ Joerg Riechardt <J.Riechardt@gmx.de>
  for filling in some missing teletext PIDs
  for improving the repeat function for LIRC remote controls
 
-Holger Wächtler <holger@qanu.de>
+Holger Wï¿½chtler <holger@qanu.de>
  for some valuable advice during adapting to the NEWSTRUCT driver
  for suggesting to use FE_READ_STATUS to read the current frontend status
 
-Jürgen Zimmermann <jnzimmer@informatik.uni-kl.de>
+Jï¿½rgen Zimmermann <jnzimmer@informatik.uni-kl.de>
  for adding some missing #includes to files in libdtv for gcc 3.2
 
 Helmut Auer <vdr@helmutauer.de>
@@ -758,7 +758,7 @@ Gerhard Steiner <steiner@mail.austria.com>
  for reporting that some cable channels don't mark short channel names according
  to the standard
 
-Jaakko Hyvätti <jaakko@hyvatti.iki.fi>
+Jaakko Hyvï¿½tti <jaakko@hyvatti.iki.fi>
  for translating OSD texts to the Finnish language
  for adding a check if there is a connection to the keyboard
  for fixing recording overlapping timers on the same channel in case
@@ -787,7 +787,7 @@ Peter Seyringer <e9425234@student.tuwien.ac.at>
 Stefan Schluenss <dxr3_osd@schluenss.de>
  for reporting a bug where PID handles were not closed correctly
 
-Régis Bossut <famille.bossut@wanadoo.fr>
+Rï¿½gis Bossut <famille.bossut@wanadoo.fr>
  for pointing out that with some providers the channels can only be distinguished
  through the RID
  for translating OSD texts to the French language
@@ -972,9 +972,9 @@ Thomas Koch <tom@harhar.net>
  for reporting a problem with "pending" timers that blocked others that actually
  could record
 
-Stefan Hußfeldt <vdr@marvin.on-luebeck.de>
+Stefan Huï¿½feldt <vdr@marvin.on-luebeck.de>
  for his help in keeping 'channels.conf.cable' up to date
- for adding 'channels.conf.terr' entries for Lübeck
+ for adding 'channels.conf.terr' entries for Lï¿½beck
 
 Christoph Friederich <christoph.friederich@gmx.de>
  for reporting a bug in deleting the last recording in the "Recordings" menu, which
@@ -1068,10 +1068,10 @@ Alfred Zastrow <vdr@zastrow4u.de>
 Matthias Raus <matthias-raus@web.de>
  for reporting a problem with starting the editing process if no marks have been set
 
-Marc Rovira Vall <tm05462@salleURL.edu>, Ramon Roca <ramon.roca@xcombo.com> and Jordi Vilà <jvila@tinet.org>
+Marc Rovira Vall <tm05462@salleURL.edu>, Ramon Roca <ramon.roca@xcombo.com> and Jordi Vilï¿½ <jvila@tinet.org>
  for translating OSD texts to the Catalan language
 
-Lars Bläser <LBlaeser@hofheim.de>
+Lars Blï¿½ser <LBlaeser@hofheim.de>
  for reporting a bug in EPG bugfix statistics which made log entries for undefined
  channels
  for reporting a problem with the initial channel in case channels are reordered or
@@ -1252,10 +1252,10 @@ Thomas Keil <tkeil@datacrystal.de>
  for a patch that was used as a base to implement setting the initial channel and
  volume
 
-Kenneth Aafløy <ke-aa@frisurf.no>
+Kenneth Aaflï¿½y <ke-aa@frisurf.no>
  for fixing checking CA capabilities with the dvb-kernel driver
 
-Ernst Fürst <ernstfuerst@swissonline.ch>
+Ernst Fï¿½rst <ernstfuerst@swissonline.ch>
  for reporting a crash in case a VFAT file system is used without compiling VDR
  with VFAT=1
 
@@ -1522,7 +1522,7 @@ Thomas Bergwinkl <Thomas.Bergwinkl@vr-web.de>
  for the Rotor plugin, from which code was used by a patch that was used as a base for
  implementing support for positioners
 
-Stéphane Esté-Gracias <sestegra@free.fr>
+Stï¿½phane Estï¿½-Gracias <sestegra@free.fr>
  for fixing a typo in libsi/si.h
  for fixing some descriptor handling in 'libsi'
  for pointing out a problem with "itemized" texts in EPG data
@@ -1532,12 +1532,12 @@ Stéphane Esté-Gracias <sestegra@free.fr>
 Marc Hoppe <MarcHoppe@gmx.de>
  for fixing handling the current menu item
 
-Michael Pennewiß <M.Pennewiss@ARD-Digital.de>
+Michael Pennewiï¿½ <M.Pennewiss@ARD-Digital.de>
  for pointing out that an empty EPG event means there is currently no running event
  for advance information about the use of the standard component descriptor for AC3
  (stream=4) on the German ARD channels
 
-Marcus Mönnig <minibbjd@gmx.de>
+Marcus Mï¿½nnig <minibbjd@gmx.de>
  for adding some 3-letter language codes
 
 Pekka Virtanen <pekka.virtanen@sci.fi>
@@ -1578,7 +1578,7 @@ Wayne Keer <syphir@syphir.sytes.net>
  for suggesting to modify the Makefile to copy and clean up additional libraries
  a plugin might provide
 
-Marco Schlüßler <marco@lordzodiac.de>
+Marco Schlï¿½ï¿½ler <marco@lordzodiac.de>
  for fixing handling colors in cDvbSpuPalette::yuv2rgb()
  for fixing setting lnb voltage if the frontend is not DVB-S
  for fixing missing audio after replaying a DVD
@@ -1683,7 +1683,7 @@ Marco Schlüßler <marco@lordzodiac.de>
  for adding a missing Detach() in cTransfer::Activate()
  for adding clearing the TS buffers in cDevice::Detach()
 
-Jürgen Schmitz <j.schmitz@web.de>
+Jï¿½rgen Schmitz <j.schmitz@web.de>
  for reporting a bug in displaying the current channel when switching via the SVDRP
  command CHAN
 
@@ -1709,7 +1709,7 @@ Martin Dauskardt <md001@gmx.de>
 Maynard Cedric <maynard.cedric@wanadoo.fr>
  for reporting a problem in handling the color button texts in cMenuEditStrItem
 
-Jörg Knitter <joerg.knitter@gmx.de>
+Jï¿½rg Knitter <joerg.knitter@gmx.de>
  for reporting a problem in case the video partition is mounted with "iocharset=utf8"
 
 Mike parker <vdr@msatt.freeserve.co.uk>
@@ -1844,7 +1844,7 @@ Lucian Muresan <lucianm@users.sourceforge.net>
  for suggesting to add functions to cDevice that allow derived output devices to
  implement scaling the video to a given size and location
 
-Mattias Grönlund <Mattias@Gronlund.net>
+Mattias Grï¿½nlund <Mattias@Gronlund.net>
  for pointing out a missing cleanup at program exit in case there is a problem
  with a plugin
  for fixing possible race condition in cDevice::Action()
@@ -1906,7 +1906,7 @@ Olaf Titz <olaf@bigred.inka.de>
  for reporting excess memory consumption due to duplicate components in EPG events
 
 Darren Salt <linux@youmustbejoking.demon.co.uk>
- for pointing out that the '-' and 'ö' characters need to be escaped in the man
+ for pointing out that the '-' and 'ï¿½' characters need to be escaped in the man
  pages
  for a patch that was used to add the command line options '--lirc', '--rcu' and
  '--no-kbd'
@@ -1943,7 +1943,7 @@ Marco Kremer <vdr.hgm.bg@gmx.net>
  through the full featured DVB card
 
 Walter Koch <koch@u32.de>
- for adding channels for DVB-T Düsseldorf and Köln (Germany) to channels.conf.terr
+ for adding channels for DVB-T Dï¿½sseldorf and Kï¿½ln (Germany) to channels.conf.terr
  for fixing some missing '-' in the German OSD texts
  for suggesting to display the free disk space also in the title of the "Recordings"
  menu
@@ -1990,12 +1990,12 @@ Mikko Salo <mikko.salo@ppe.inet.fi>
  for suggesting to make the setup option "DVB/Video display format" available only
  if "Video format" is set to "4:3"
 
-Roman Krenický <free-rtk@gmx.de>
+Roman Krenickï¿½ <free-rtk@gmx.de>
  for a patch that was used a a basis for changing a timer's day handling to full date
  for considering the "EPG linger time" when saving the EPG data to file or listing
  it via LSTE
 
-Ville Skyttä <ville.skytta@iki.fi>
+Ville Skyttï¿½ <ville.skytta@iki.fi>
  for reporting several compiler warnings in gcc 4.0
  for including the optional user defined Make.config from the 'libsi' Makefile
  for making LIRC command parsing more robust
@@ -2070,7 +2070,7 @@ Daniel Thompson <daniel.thompson@st.com>
  for fixing a memory leak in tComponent
  for introducing a separate 'plugins-install' target in the Makefile
 
-Matthias Lötzke <Matthias@Loetzke.de>
+Matthias Lï¿½tzke <Matthias@Loetzke.de>
  for adding missing text internationalization for "Starting EPG scan"
 
 Wolfgang Fritz <wolfgang.fritz@gmx.net>
@@ -2112,7 +2112,7 @@ Martin Wache <M.Wache@gmx.net>
 Matthias Lenk <matthias.lenk@amd.com>
  for reporting an out-of-bounds memory access with audio language ids
 
-Frank Krömmelbein <kroemmelbein@gmx.de>
+Frank Krï¿½mmelbein <kroemmelbein@gmx.de>
  for adding missing storing of the MenuScrollPage parameter
  for reporting a problem with channel switching with the Down (Up) key in case the
  current channel is already the first (last) in the list
@@ -2125,7 +2125,7 @@ Bernhard Stegmaier <bernhard.stegmaier@in.tum.de>
 Klaus Heppenheimer <klaus@reel-multimedia.com>
  for reporting a race condition in cTransfer
 
-Thomas Günther <tom1@toms-cafe.de>
+Thomas Gï¿½nther <tom1@toms-cafe.de>
  for fixing handling the frame number display if '7' is pressed before the first
  editing mark, or '9' after the last one
  for suggesting to move cMenuEditTimer and cMenuEvent to menu.h so that plugins
@@ -2139,7 +2139,7 @@ Thomas Günther <tom1@toms-cafe.de>
  for fixing i18n characters for the Hungarian texts
  for implementing using nl_langinfo(CODESET) to determine the local codeset to use
  for removing a duplicate ',' from the ca_ES.po file
- for suggesting to add the 'ß' character to the "allowed characters" in the
+ for suggesting to add the 'ï¿½' character to the "allowed characters" in the
  de_DE.po file
  for adding more special characters to the list of allowed characters when entering
  strings
@@ -2168,7 +2168,7 @@ Hardy Flor <HFlor@web.de>
 Harald Milz <hm@seneca.muc.de>
  for his CUTR patch, which was used as a base to implement the SVDRP command EDIT
 
-Marko Mäkelä <marko.makela@hut.fi>
+Marko Mï¿½kelï¿½ <marko.makela@hut.fi>
  for making repeat keys be ignored when waiting for a keypress to cancel an operation
  for reporting that a menu was automatically closed when a replay ends
  for suggesting to ignore k_Repeat when deciding whether the same key has been
@@ -2221,7 +2221,7 @@ Patrick Fischer <patrick_fischer@gmx.de>
  for reporting that characters 0x01 and 0x02 in recording names were a problem
  with XML
 
-Ralf Müller <ralf@bj-ig.de>
+Ralf Mï¿½ller <ralf@bj-ig.de>
  for a patch that was used to implement cUnbufferedFile
 
 Maarten Wisse <Maarten.Wisse@urz.uni-hd.de>
@@ -2247,11 +2247,11 @@ Bob Withers <bwit@pobox.com>
  (http://www.ruffboy.com/code/Base64.zip), part of which was used when writing
  the cBase64Encoder class
 
-Javier Fernández-Sanguino Peña <jfs@computer.org>
+Javier Fernï¿½ndez-Sanguino Peï¿½a <jfs@computer.org>
  for reporting a security hole in the way the SVDRP command GRAB writes the
  image file
 
-Jürgen Schneider <ivory7@gmx.de>
+Jï¿½rgen Schneider <ivory7@gmx.de>
  for a patch that was used as a base to fix handling multi byte key sequences
  in cKbdRemote
 
@@ -2305,11 +2305,11 @@ Patrick Cernko <errror@errror.org>
  for suggesting to add a note about "modprobe capability" to INSTALL
  for reporting a problem with relative link targets in the ReadLink() function
 
-Philippe Gramoullé <philippe@gramoulle.com>
+Philippe Gramoullï¿½ <philippe@gramoulle.com>
  for reporting a a missing '-' in the example for viewing a grabbed image on a remote
  host
 
-André Weidemann <Andre.Weidemann@web.de>
+Andrï¿½ Weidemann <Andre.Weidemann@web.de>
  for suggesting to only write Dolby Digital tracks into the 'info.vdr' file of a
  recording if Setup.UseDolbyDigital is true
  for suggesting that the primary device should only be avoided for recording if
@@ -2323,7 +2323,7 @@ André Weidemann <Andre.Weidemann@web.de>
  in case there are folders and plain recordings with names that differ only in
  non-alphanumeric characters
 
-Jürgen Schilling <juergen_schilling@web.de>
+Jï¿½rgen Schilling <juergen_schilling@web.de>
  for reporting that color buttons were displayed in the recording info menu if it
  has been invoked from a player
 
@@ -2340,7 +2340,7 @@ Franz Gangkofer <Franz.Gangkofer@cadsoft.de>
  for reporting a problem with @plugin in keymacros.conf in case the named plugin
  is not loaded
 
-Malte Schröder <MalteSch@gmx.de>
+Malte Schrï¿½der <MalteSch@gmx.de>
  for reporting a crash after executing the SVDRP command CLRE
  for reporting a crash with the code for detecting Premiere NVOD channel links
 
@@ -2380,7 +2380,7 @@ Ronny Kornexl <ronny.kornexl@online.de>
  font if set to '2' - even if it would have been a fixed font
  for reporting a bug in initializing 'noapiv' in the Makefile
 
-Vladimír Bárta <vladimir.barta@k2atmitec.cz>
+Vladimï¿½r Bï¿½rta <vladimir.barta@k2atmitec.cz>
  for translating OSD texts to the Czech language
  for fixing the character 'r' in fontosd and fontsml for iso8859-2
  for fixing the character #207 in fontosd for iso8859-2
@@ -2495,7 +2495,7 @@ Markus Ehrnsperger <markus.ehrnsperger@googlemail.com>
  for reporting a problem with missing 'INCLUDES += -I$(DVBDIR)/include' in an existing
  Make.config
 
-Werner Färber <w.faerber@gmx.de>
+Werner Fï¿½rber <w.faerber@gmx.de>
  for reporting a bug in handling the cPluginManager::Active() result when pressing
  the "Power" key
 
@@ -2567,7 +2567,7 @@ Frank Schmirler <vdr@schmirler.de>
  for fixing handling IDLEPRIORITY in cDvbDevice::ProvidesChannel()
  for suggesting to add functions to set and retrieve the priority of a cReceiver
 
-Jörn Reder <joern@zyn.de>
+Jï¿½rn Reder <joern@zyn.de>
  for reporting that a recording may unnecessarily block a device with a CAM, while
  it could record on the primary device as well
 
@@ -2606,7 +2606,7 @@ Ulf Kiener <webmaster@ulf-kiener.de>
  for suggesting to make the Yellow button in the main menu not act as "Pause" if
  "Pause key handling" is set to "do not pause live video"
 
-Jörg Wendel <vdr-ml@jwendel.de>
+Jï¿½rg Wendel <vdr-ml@jwendel.de>
  for reporting that cPlugin::Active() was called too often
  for adding HandledExternally() to the EPG handler interface
  for adding IsUpdate() to the EPG handler interface
@@ -2620,7 +2620,7 @@ Petri Helin <phelin@googlemail.com>
  FTA channel
  for reporting a bug in setting the current subtitle track in Transfer-Mode
 
-Oktay Yolgeçen <oktay_73@yahoo.de>
+Oktay Yolgeï¿½en <oktay_73@yahoo.de>
  for translating OSD texts to the Turkish language
 
 Krzysztof Parma <krzycho@zoz.wodzislaw.pl>
@@ -2706,7 +2706,7 @@ Lauri Nurmi <lanurmi@iki.fi>
 Mario Ivankovits <mario@ops.co.at>
  for fixing a crash if no fonts are found
 
-István Füley <ifuley@tigercomp.ro>
+Istvï¿½n Fï¿½ley <ifuley@tigercomp.ro>
  for translating OSD texts to the Hungarian language
 
 Jiri Dobry <jdobry@centrum.cz>
@@ -2787,7 +2787,7 @@ Michael Nork <mnork0@gmx.net>
  binary distributions to have full control over whether or not to use the --vfat
  option at runtime
 
-Winfried Köhler <w_koehl@gmx.de>
+Winfried Kï¿½hler <w_koehl@gmx.de>
  for fixing wrong value for TableIdBAT in libsi/si.h
  for making several code modifications to avoid compiler warnings
  for improving the description of the transponder parameters in vdr.5
@@ -2842,11 +2842,12 @@ Derek Kelly <user.vdr@gmail.com>
  for reporting a missing template for DVBDIR in Make.config.template
  for suggesting to add ARGSDIR to the ONEDIR section of Make.config.template
  for suggesting to change the naming of "binary skip mode" to "adaptive skip mode"
+ for reporting a problem with abs() in gcc6+ when called with an unsigned variable
 
 Marcel Unbehaun <frostworks@gmx.de>
  for adding cRecordingInfo::GetEvent()
 
-Günter Niedermeier <linuxtv@ncs-online.de>
+Gï¿½nter Niedermeier <linuxtv@ncs-online.de>
  for reporting a problem with file I/O overhead during recording in TS format
 
 Martin Neuditschko <yosuke.tomoe@gmx.net>
@@ -2892,12 +2893,12 @@ Francesco Saverio Schiavarelli <fschiava@libero.it>
  for reporting a problem with channels that have some encrypted components that
  VDR doesn't use
 
-Matti Lehtimäki <matti.lehtimaki@gmail.com>
+Matti Lehtimï¿½ki <matti.lehtimaki@gmail.com>
  for implementing the setup option "Miscellaneous/Channels wrap"
  for reporting a missing change from -O2 to -O3 in Make.config.template
  for a patch that was used to implement instant recording of only the present event
 
-Stephan Austermühle <au@hcsd.de>
+Stephan Austermï¿½hle <au@hcsd.de>
  for suggesting to flush the file in cSafeFile::Close()
 
 Lars Hanisch <dvb@flensrocker.de>
@@ -2976,7 +2977,7 @@ Osama Alrawab <alrawab@hotmail.com>
  for adding support for languages that are written right-to-left
  for translating OSD texts to the Arabic language
 
-Antti Seppälä <a.seppala@gmail.com>
+Antti Seppï¿½lï¿½ <a.seppala@gmail.com>
  for suggesting to add cString::operator=(const char *String)
 
 Henning Heinold <heinold@inf.fu-berlin.de>
@@ -3033,7 +3034,7 @@ Dirk Leber <dirk.leber@reel-multimedia.com>
  for reporting that TsGetPayload() gets called without checking whether there actually
  is a payload in the given TS packet
 
-Marco Göbenich <mg@needful.de>
+Marco Gï¿½benich <mg@needful.de>
  for reporting a problem with executing diseqc commands from different threads
  for suggesting to implement command line option --filesize
 
@@ -3163,7 +3164,7 @@ Jens Vogel <jens.vogel@akjv.de>
  as "AC3", so that recordings that have been converted from the old PES format to
  TS can be played
 
-Sören Moch <smoch@web.de>
+Sï¿½ren Moch <smoch@web.de>
  for a patch that was used to move cleaning up the EPG data and writing the epg.data
  file into a separate thread to avoid sluggish response to user input on slow systems
  for fixing sorting folders before recordings in case of UTF-8
@@ -3187,7 +3188,7 @@ Sören Moch <smoch@web.de>
  for adding an empty target to the Makefile to make sure the sub-make for libsi is
  always called
 
-Peter Münster <pmlists@free.fr>
+Peter Mï¿½nster <pmlists@free.fr>
  for fixing 'make install' to not overwrite existing configuration files
  for translating OSD texts to the French language
 
@@ -3224,7 +3225,7 @@ Marc Perrudin <vdr@ekass.net>
 Bernard Jaulin <bernard.jaulin@gmail.com>
  for translating OSD texts to the French language
 
-Mikael Hübsch <mikael.hubsch@gmail.com>
+Mikael Hï¿½bsch <mikael.hubsch@gmail.com>
  for reporting a crash in cMenuEditChanItem::Set() when entering a channel number that
  doesn't exist
 
@@ -3243,7 +3244,7 @@ Marek Nazarko <mnazarko@gmail.com>
 Dominique Plu <dplu@free.fr>
  for translating OSD texts to the French language
 
-Matti Lehtimäki <matti.lehtimaki@gmail.com>
+Matti Lehtimï¿½ki <matti.lehtimaki@gmail.com>
  for translating OSD texts to the Finnish language
 
 Siegfried Bosch <bosch@math.uni-muenster.de>
@@ -3273,7 +3274,7 @@ Dominique Dumont <domi.dumont@free.fr>
 Seppo Ingalsuo <seppo.ingalsuo@iki.fi>
  for a patch that was used as a base for implementing support for positioners
 
-Manfred Völkel <mvoelkel@digitaldevices.de>
+Manfred Vï¿½lkel <mvoelkel@digitaldevices.de>
  for suggesting to make all bonded devices (except for the master) turn off their LNB
  power completely to avoid problems when receiving vertically polarized transponders
  for adding support for "Satellite Channel Routing" (SCR) according to EN50607 ("JESS")
@@ -3384,7 +3385,7 @@ Tobias Faust <tobias.faust@gmx.de>
 Erik Oomen <oomen.e@gmail.com>
  for translating OSD texts to the Dutch language
 
-Magnus Sirwiö <sirwio@hotmail.com>
+Magnus Sirwiï¿½ <sirwio@hotmail.com>
  for translating OSD texts to the Swedish language
 
 Albert Danis <a.danis@gmx.de>
