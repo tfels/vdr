@@ -2721,6 +2721,8 @@ Winfried Koehler <w_koehl@gmx.de>
  for fixing finding new transponders
  for reporting a compiler warning in calculations involving FramesPerSecond()
  for fixing some copy&paste errors in PLUGINS.html
+ for reporting a bug in checking the return value of the Open() call in
+ cFileName::SetOffset()
 
 Hans-Werner Hilse <hilse@web.de>
  for adding the command line option --userdump to enable core dumps in case VDR
